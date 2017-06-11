@@ -21,7 +21,7 @@ while first_input != FIRST_CORRECT_INPUT:
   first_input = input(FIRST_PROMPT)
 
 # the next and final set of prompt and response (the joke setup)
-SECOND_PROMPT = "lettuce"
+SECOND_PROMPT = "lettuce "
 SECOND_CORRECT_INPUT = "lettuce who?"
 
 # prompt the user with the setup part of the joke

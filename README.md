@@ -57,5 +57,10 @@ Pull requests are welcome the more exercises and examples the better
 * use two spaces to indent.
 * use vertical whitespace to aid readability
 
+## Author(s)
+Jonathan Cowling
+
 ## License
 GNU GPLv3
+
+The Python logo is a trademark of the Python Software Foundation [read more](https://www.python.org/psf/trademarks)

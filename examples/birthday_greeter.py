@@ -5,6 +5,7 @@
 # get the users age
 age = int(input("Oi! kid... How old are you? "))
 
+# print an age specific birthday greeting
 if age < 0:
   print("umm... i don't think so?")
 elif age == 1:
@@ -19,5 +20,6 @@ elif age == 17:
   print("you're now old enough to drive!")
 elif age == 18:
   print("now you are an adult... no it's not all it's cracked up to be")
+# the general greeting if the user doesn't hapen to be one of the specific ages
 else:
   print("Happy Birthday!")

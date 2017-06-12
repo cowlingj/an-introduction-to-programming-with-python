@@ -1,10 +1,20 @@
-# WELCOME TO PROGRAMMING WITH PYTHON - HELLO WORLD
+### WELCOME TO 
+# AN INTRODUCTION TO PROGRAMMING WITH PYTHON
 
 New to programming? New to python?
 Then you've found the right place, in this repository you'll find plenty of
 lessons and examples to help set you on your way into the world of programming.
 It's a big and sometimes complicated world programming - this repository aims
 to break it down into easy to manage chunks.
+
+# Contents
+
+ * **What's Here**
+ * **How to Follow the Course**
+ * **A Note on Solutions**
+ * **Contributors**
+ * **Author(s)**
+ * **License**
 
 ## What's Here
 
@@ -41,8 +51,8 @@ only consult the solution after completing the exercise to compare them or as
 a very last resort if stuck on an exercise.
 It's temping to copy the solution or look at it for answers but just keep in
 mind:
-> “The master has failed more times than the beginner has even tried.”
-> -Stephen McCraine
+> “The master has failed more times than the beginner has even tried.”  
+> \- Stephen McCraine
 
 ## Contributors
 

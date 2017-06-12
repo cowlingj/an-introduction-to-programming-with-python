@@ -18,4 +18,5 @@ print("I have taken the first steps in programming")
 
 Notice the brackets and quotes around what we want to print out.
 
-Exercise001 - hello_world.py
+---
+**Exercise001 - hello_world.py**

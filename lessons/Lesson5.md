@@ -46,7 +46,7 @@ print(food)
 > colon ":" at the end, or an Indentation Error caused by not indenting the body
 > with either tabs or spaces (either is fine so long as you are consistent)
 
-In this example we have to variables, `food` which is currently the integer `5`,
+In this example we have two variables, `food` which is currently the integer `5`,
 and `hungry` which is the boolean value `False` (always with a capital "F" in
 python).
 If the condition `hungry` is `True` (it's not) then we go into the body and

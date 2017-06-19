@@ -37,8 +37,8 @@ So what things exactly can we store a refrence to?
   always be considered the same thing (python tends to hide this problem).
 
 * **and more...**
-  Refrences can be made to things called functions, and objects, but lets look
-  at those another time.
+  Refrences can be made to things called booleans, functions, and objects, but
+  lets look at those another time.
 
 ## Variable names
 

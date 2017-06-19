@@ -20,7 +20,8 @@ This is an **assignment statement**, It's as simple as that!
 So what things exactly can we store a refrence to?
 
 * **Strings**
-  A String is a sequence of letters or characters such as "hello world", we
+  A String is a sequence of letters or characters such as "hello world"
+  (what we simply refered to as text in the previous lesson), we
   enclose strings in quotations to make it clear to python that we are talking
   about the string hello world rather than something else with the same name.
 
@@ -48,13 +49,37 @@ There are some rules for naming variables in python:
 3. Variable names are **case sensitive**.
 4. A variable cannot have the same name as one of pythons keywords.
   Keywords are special words reserved by python, and include:
-  | and        | del        | from       | not        | while      |     
-  | as         | elif       | global     | or         | with       |      
-  | assert     | else       | if         | pass       | yield      |    
-  | break      | except     | import     | print      |            |  
-  | class      | exec       | in         | raise      |            |  
-  | continue   | finally    | is         | return     |            | 
-  | def        | for        | lambda     | try        |            |
+    * and
+    * as
+    * assert
+    * break
+    * class
+    * continue
+    * def
+    * del
+    * elif
+    * else
+    * except
+    * exec
+    * finally
+    * for
+    * from
+    * global
+    * if
+    * import
+    * in
+    * is
+    * lambda
+    * not
+    * or
+    * pass
+    * print
+    * raise
+    * return
+    * try
+    * while
+    * with
+    * yield
 
 > although it's not a rule variables should have names that refect what they are
 > for.

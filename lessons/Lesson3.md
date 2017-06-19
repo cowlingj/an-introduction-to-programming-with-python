@@ -32,4 +32,4 @@ so now when we refer to `username` we are refrencing the string of text the user
 entered.
 
 ---
-No examples or exercises here, onto the next lesson!
+**No examples or exercises here, onto the next lesson!**

@@ -50,13 +50,13 @@ There are some rules for naming variables in python:
 4. A variable cannot have the same name as one of pythons keywords.
   Keywords are special words reserved by python, and include:
   
-  | and        | del        | from       | not        | while      |     
-  | as         | elif       | global     | or         | with       |      
-  | assert     | else       | if         | pass       | yield      |    
-  | break      | except     | import     | print      |            |  
-  | class      | exec       | in         | raise      |            |  
-  | continue   | finally    | is         | return     |            | 
-  | def        | for        | lambda     | try        |            |
+  and       del       from      not       while     
+  as        elif      global    or        with      
+  assert    else      if        pass      yield     
+  break     except    import    print               
+  class     exec      in        raise               
+  continue  finally   is        return              
+  def       for       lambda    try                 
 
 > although it's not a rule variables should have names that refect what they are
 > for.

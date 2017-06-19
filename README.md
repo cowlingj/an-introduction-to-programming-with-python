@@ -9,19 +9,19 @@ to break it down into easy to manage chunks.
 
 # Contents
 
- * **What's Here**
- * **How to Follow the Course**
- * **A Note on Solutions**
- * **Contributors**
- * **Author(s)**
- * **License**
+ * [**What's Here**](#whats-here) 
+ * [**How to Follow the Course**](#how-to-follow-the-course)
+ * [**A Note on Solutions**](#a-note-on-solutions)
+ * [**Contributors**](#contributors)
+ * [**Author(s)**](#authors)
+ * [**License**](#license)
 
 ## What's Here
 
-* **examples** - This folder contains examples discussed in the lessons.
-* **lessons** - This folder contains the lessons in the course.
-* **exercises** - This folder contains exercises to be completed during the course.
-* **solutions** - This folder contains the solutions to the exercises within the exercise folder
+* [**examples**](examples) - This folder contains examples discussed in the lessons.
+* [**lessons**](lessons) - This folder contains the lessons in the course.
+* [**exercises**](exercises) - This folder contains exercises to be completed during the course.
+* [**solutions**](solutions) - This folder contains the solutions to the exercises within the exercise folder
 
 ## How to Follow the Course
 
@@ -68,9 +68,9 @@ Pull requests are welcome the more exercises and examples the better
 * use vertical whitespace to aid readability
 
 ## Author(s)
-Jonathan Cowling
+[Jonathan Cowling](https://github.com/cowlingj)
 
 ## License
-GNU GPLv3
+[GNU GPLv3](LICENSE.md)
 
 The Python logo is a trademark of the Python Software Foundation [read more](https://www.python.org/psf/trademarks)

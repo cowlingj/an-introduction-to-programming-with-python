@@ -2,8 +2,10 @@
 
 ## What is Python
 
-Python is an open source programming language developed by the Python Software Foundation.
-It's designed to be simple to read and write, which is why it's a good first programming language.
+Python is an open source programming language developed by the Python Software
+Foundation.
+It's designed to be simple to read and write, which is why it's a good first
+programming language.
 
 ## How it works
 
@@ -33,7 +35,8 @@ website [here](https://www.python.org/about/gettingstarted/)
 
 ## REPL
 
-This course will use a website called [REPL.it](https://repl.it/languages/python3)
+This course will use a website called
+[REPL.it](https://repl.it/languages/python3)
 (REPL stands for read, eveluate, print, loop), REPL allows us to work online,
 without worrying about installation. Optionally an account can be made with
 REPL.it, which allows for more features such as saving programs, but for our

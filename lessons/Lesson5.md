@@ -127,7 +127,43 @@ if my_cats_name > my_dogs_name:
   print(my_cats_name + " name is longer")
 ```
 The example will print out `Mr also barks a lot, because cat's are weird name is
-longer`. 
+longer`.
+
+## Common Conditional Statement Bad Habbit
+
+Many new programmers fall into the trap of doing an extra comparason with
+conditional statements using a single variable.
+Take the earlier hungry.py example:
+```python
+food = 5
+hungry = False
+
+if hungry:
+  food = food + 1
+
+print(food)
+```
+Many new programmers make the mistake of writing:
+
+```python
+food = 5
+hungry = False
+
+if hungry == True:
+  food = food + 1
+
+print(food)
+```
+In the line which reads `if hungry == True:` an extra comparason has been made.
+the boolean hungry is either `True` or `False` so there is no need to find out
+whether `True == True` or `False == True` because this has the exact same effect
+as just using the boolean alone.
+Even though they reach the same answer it adds an extra step, and more
+experienced programmers hate it (I may be one of them).
+
+> It may seem a poor reson not to write code a certain way because programmers
+> don't like it, but consider programs written in industry are read many, many
+> times, so it's important that it is easy to read.
 
 ---
 **Example003 - hungry.py**

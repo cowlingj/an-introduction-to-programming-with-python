@@ -49,16 +49,18 @@ There are some rules for naming variables in python:
 3. Variable names are **case sensitive**.
 4. A variable cannot have the same name as one of pythons keywords.
   Keywords are special words reserved by python, and include:
-  |   |   |   |   |
-  |---|---|---|---|
-  | and | as | assert | break |
-  | class | continue | def | del |
-  | elif | else | except | exec |
-  | finally | for | from | global |
-  | if | import | in | is |
-  | lambda | not | or | pass |
-  | print | raise | return | try |
-  | while | with | yield | | 
+  
+  |         |          |        |        |
+  |---------|----------|--------|--------|
+  | and     | as       | assert | break  |
+  | class   | continue | def    | del    |
+  | elif    | else     | except | exec   |
+  | finally | for      | from   | global |
+  | if      | import   | in     | is     |
+  | lambda  | not      | or     | pass   |
+  | print   | raise    | return | try    |
+  | while   | with     | yield  |        |
+  |         |          |        |        |
 
 > although it's not a rule variables should have names that refect what they are
 > for.

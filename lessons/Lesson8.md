@@ -90,6 +90,8 @@ print("now the shopping list is " + len(shopping) + " long")
 > `append("chocolate")` onto that list with a dot `.` to give us
 > `shopping.append("chocolate")`.
 
+What **append** does is add the item to the end of the list. 
+
 ### remove
 
 Removing an item is pretty similar, we just call the **remove** function in the
@@ -109,6 +111,7 @@ We call the **remove** function with `"oranges"` on the list called `shopping`.
 
 ### insert
 
+<<<<<<< HEAD
 ___________
 ___________
 ___________
@@ -128,3 +131,28 @@ ___________
 
 Another type of loop is a for loop, this type of loop doesn't use a boolean
 condition, instead it works by looking at each item in a list.
+=======
+The **insert** function is similar to the append function, however the insert
+function inserts an item at a particular position.
+This means we must pass two things to the **insert** function, the position to
+insert the item at and the item to insert, this can be done like so:
+```python
+compass_directions = ["north", "east", "south", "west"]
+print(compass_directions)
+compass_directions.insert(1, "north-east")
+print(compass_directions)
+compass_directions.insert(3, "south-east")
+print(compass_directions)
+compass_directions.insert(5, "south-west")
+print(compass_directions)
+compass_directions.insert(7, "north-west")
+print(compass_directions)
+```
+The example creates a list and inserts 4 items one by one, printing the list
+bettween each insert.
+
+> There are some other useful functions on lists in python like **find** and
+> **index**, we won't cover them in this course but feel free to find out about
+> them,(click here)[https://docs.python.org/3/tutorial/datastructures.html] to
+> look at some more list functions.
+>>>>>>> in-progress

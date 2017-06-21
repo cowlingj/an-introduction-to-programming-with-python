@@ -19,7 +19,7 @@ if starting_position <= QUEUE_LIMIT:
   # (including the start)
   for count in range(starting_position):
     # the output is counting down
-    print("you are number " + (starting_position - count) + "in line")
+    print("you are number " + str(starting_position - count) + " in line")
     # increase the count variable we use to keep track of the number of loops
     # when count becomes larger than the starting position it becomes out of
     # range and the loop stops

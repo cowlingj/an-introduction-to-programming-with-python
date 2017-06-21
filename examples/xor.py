@@ -5,6 +5,9 @@
 # bellow we have 3 ways to do the same thing, consider how easy each method is
 # to undestand just by reading
 
+first_condition = True
+second_condition = False
+
 ################################################################################
 
 # using nested statements
@@ -16,10 +19,10 @@ if first_condition or second_condition:
   if not (first_condition and second_condition):
     # if we get to this point we have one and only one condition true - an xor
     print("this is an xor, only one condition is True")
-  else
+  else:
     # if at least one condtion is True, but not only one, both must be True
     print("this is an and, both conditions are True")
-else
+else:
   # this is the else statement for the outer if, if we are here both are False
   print("neither condition is True")
 
@@ -41,5 +44,5 @@ else:
 
 # using just one if statement
 # one condition or the other and noth both
-if (first_condition or second_condition) and !(first_condition and second_condition):
-  print("this is an and, both conditions are True")
+if (first_condition or second_condition) and not (first_condition and second_condition):
+  print("this is an xor, only one condition is True")

@@ -8,7 +8,7 @@ If the user replies incorrectly the program will repeat that part of the joke
 """
 
 # the first prompt and the appropriate response to the first prompt
-FIRST_PROMPT = "knock knock "
+FIRST_PROMPT = "knock knock\n> "
 FIRST_CORRECT_INPUT = "who's there?"
 
 # prompt the user with the usual start of a knock knock joke
@@ -21,7 +21,7 @@ while first_input != FIRST_CORRECT_INPUT:
   first_input = input(FIRST_PROMPT)
 
 # the next and final set of prompt and response (the joke setup)
-SECOND_PROMPT = "lettuce "
+SECOND_PROMPT = "lettuce\n> "
 SECOND_CORRECT_INPUT = "lettuce who?"
 
 # prompt the user with the setup part of the joke

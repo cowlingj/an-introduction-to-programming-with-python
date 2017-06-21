@@ -3,7 +3,7 @@
 # birthday_greeter.py
 
 # get the users age
-age = int(input("Oi! kid... How old are you? "))
+age = int(input("Enter your age today "))
 
 # print an age specific birthday greeting for some ages
 if age < 0:

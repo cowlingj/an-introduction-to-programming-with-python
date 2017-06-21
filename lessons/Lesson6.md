@@ -51,9 +51,6 @@ if there_are_puppies or (there_is_code and there_is_coffee):
 > brackets "()" have a much higher operator presidense so a statement in
 > brackets is always executed first.
 
-> there is also the conditional operator **not** which is the exact same as
-> **"!"**
-
 ## Multiple Conditions
 
 We can do things if a condition is not met, including testing for more

@@ -73,7 +73,7 @@ The logical operators have the following symbols and descriptions:
 | greater than | >      | if the first operand is greater than the other, this is True |
 | less than    | <      | if the first operand is less than the other, this is True    |
 | equal to     | ==     | if the first operand is the same as the other this is True   |
-| not          | !      | this is the oposite to the single boolean value it gets      |
+| not          | not    | this is the oposite to the single boolean value it gets      |
 
 > remember the **assignment opperator** is a single equals sign **"="** while
 > the logical operator **equals** is two equals signs **"="**

@@ -111,27 +111,6 @@ We call the **remove** function with `"oranges"` on the list called `shopping`.
 
 ### insert
 
-<<<<<<< HEAD
-___________
-___________
-___________
-> There are some other useful functions on lists in python like **find** and
-> **index**, we won't cover them in this course but feel free to find out about
-> them, click here to look at some more list functions. LINK!!!!!!!!!!!!!!
-
-## mathematical operators
-
-## slicing
-
-## Strings as Lists
-
-
-
-### for Loop
-
-Another type of loop is a for loop, this type of loop doesn't use a boolean
-condition, instead it works by looking at each item in a list.
-=======
 The **insert** function is similar to the append function, however the insert
 function inserts an item at a particular position.
 This means we must pass two things to the **insert** function, the position to
@@ -155,4 +134,5 @@ bettween each insert.
 > **index**, we won't cover them in this course but feel free to find out about
 > them,(click here)[https://docs.python.org/3/tutorial/datastructures.html] to
 > look at some more list functions.
->>>>>>> in-progress
+---
+ADD STUFF HERE

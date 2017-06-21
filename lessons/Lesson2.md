@@ -20,10 +20,10 @@ This is an **assignment statement**, It's as simple as that!
 So what things exactly can we store a refrence to?
 
 * **Strings**
-  A String is a sequence of letters or characters such as "hello world"
-  (what we simply refered to as text in the previous lesson), we
-  enclose strings in quotations to make it clear to python that we are talking
-  about the string hello world rather than something else with the same name.
+  A String is a list of letters or characters such as "hello world" (what we
+  simply refered to as text in the previous lesson), we enclose strings in
+  quotations to make it clear to python that we are talking about the string
+  hello world rather than something else with the same name.
 
   > Strings in quotation marks are often refered to as string literals (we 
   > literally mean "hello world").

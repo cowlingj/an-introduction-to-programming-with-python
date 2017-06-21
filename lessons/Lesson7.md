@@ -56,7 +56,7 @@ point we move on passed the loop.
 
 Time so see that a loop in action then...
 
-### While
+### while
 
 ```python
 
@@ -82,6 +82,5 @@ when the loop is finished.
 > To see this in action checkout infinte_loop.py, but first make sure you
 > know how to force the program to stop!
 
-### For
-
-Another type of loop is a for loop
+---
+**Example005 - infinite_loop.py** 

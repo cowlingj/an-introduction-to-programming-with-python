@@ -8,7 +8,7 @@ data, we can do this using operations.
 ## Mathematics
 
 We can peerform many operations with integers and floats lets try addition:
-```python
+```python3
 my_number = 3 + 2
 ```
 This will assign the name `my_number` to the result of the operation `3 + 2`, so
@@ -22,7 +22,7 @@ There are more mathematical opperations such as **floor**, **modulus**, and
 **exponential**, these are less comonly used but can still be very helpful.
 
 When doing operations the **operands** can be variables, like so:
-```python
+```python3
 first_number = 3
 second_number = 2
 
@@ -40,18 +40,18 @@ which is where two strings are combined into one "hello " concatenated with
 
 Since strings can't be added together like numbers can, we can instead use the
 "+" symbol for concatenation.
-```python
+```python3
 first_half = "thi"
 second_half = ""
 ```
 > A common mistake is to forget that when concatenating two strings which are
 > whole words we need a space to seperate them in the operation.
-> ```python
+> ```python3
 > wrong = "this is" + "wrong"
 > print(wrong)
 >```
 > The above will print `this iswrong`, lets correct this with a space:
->```python
+>```python3
 > correct = "this is " + "correct"
 > print(correct)
 >```
@@ -100,7 +100,7 @@ There is no value of integer for the String "fred", so we get an error.
 > programmer.
 
 ---
-**Example001 - add_two_numbers_wrong.py**
-**Example002 - add_two_numbers.py**
-**Example003 - parrot.py**
+**Example001 - add_two_numbers_wrong.py**  
+**Example002 - add_two_numbers.py**  
+**Example003 - parrot.py**  
 **Exercise003 - hello_someone.py**

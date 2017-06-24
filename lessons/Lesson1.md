@@ -16,7 +16,7 @@ The print function is a function built into python which will take some text,
 and print it to the output or **standard out**.
 Below is a demonstration of the print function.
 
-```python
+```python3
 print("I have taken the first steps in programming")
 ```
 

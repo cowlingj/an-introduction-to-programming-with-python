@@ -10,7 +10,7 @@ mention `my_favourite_number` we are actually talking about the number `6`.
 
 To create a variable in python we just need to supply a name and a value,
 like this:
-```python
+```python3
 my_variable = "my value"
 ```
 This is an **assignment statement**, It's as simple as that!
@@ -20,12 +20,12 @@ This is an **assignment statement**, It's as simple as that!
 So what things exactly can we store a refrence to?
 
 * **Strings**
-  A String is a sequence of letters or characters such as "hello world"
-  (what we simply refered to as text in the previous lesson), we
-  enclose strings in quotations to make it clear to python that we are talking
-  about the string hello world rather than something else with the same name.
+  A String is a list of letters or characters such as "hello world" (what we
+  simply refered to as text in the previous lesson), we enclose strings in
+  quotations to make it clear to python that we are talking about the string
+  hello world rather than something else with the same name.
 
-  > Strings in quotation marks are often refered to as string literals (we 
+  > Strings in quotation marks are often refered to as string literals (we
   > literally mean "hello world").
 
 * **integers**
@@ -49,37 +49,18 @@ There are some rules for naming variables in python:
 3. Variable names are **case sensitive**.
 4. A variable cannot have the same name as one of pythons keywords.
   Keywords are special words reserved by python, and include:
-    * and
-    * as
-    * assert
-    * break
-    * class
-    * continue
-    * def
-    * del
-    * elif
-    * else
-    * except
-    * exec
-    * finally
-    * for
-    * from
-    * global
-    * if
-    * import
-    * in
-    * is
-    * lambda
-    * not
-    * or
-    * pass
-    * print
-    * raise
-    * return
-    * try
-    * while
-    * with
-    * yield
+
+  |         |          |        |        |
+  |---------|----------|--------|--------|
+  | and     | as       | assert | break  |
+  | class   | continue | def    | del    |
+  | elif    | else     | except | exec   |
+  | finally | for      | from   | global |
+  | if      | import   | in     | is     |
+  | lambda  | not      | or     | pass   |
+  | print   | raise    | return | try    |
+  | while   | with     | yield  |        |
+  |         |          |        |        |
 
 > although it's not a rule variables should have names that refect what they are
 > for.
@@ -88,7 +69,7 @@ There are some rules for naming variables in python:
 
 Let's have a go at printing some variables.
 
-```python
+```python3
 my_first_variable="just a simple string"
 
 print(my_first_variable)

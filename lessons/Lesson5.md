@@ -5,7 +5,7 @@
 A boolean is a data type that can have one of two values `True` or `False`,
 this allows us to do certain things depending on which of those two values
 a particular boolean is.
-This may seem a little confusing now but it will make more sense in later 
+This may seem a little confusing now but it will make more sense in later
 examples.
 
 ## Conditional Statements
@@ -33,7 +33,7 @@ _If you are hungry, **then go and eat food.**_
 ## Conditional Statements in Python
 
 Let's look at an example in code then:
-```python
+```python3
 food = 5
 hungry = False
 
@@ -79,7 +79,7 @@ The logical operators have the following symbols and descriptions:
 > the logical operator **equals** is two equals signs **"="**
 
 We can use these operators to get boolean results like in the following example:
-```python
+```python3
 my_boolean = 1 < 2
 my_other_boolean = 1 > 2
 ```
@@ -99,7 +99,7 @@ Lets look at these extra operators:
 | not equal to             | !=     |
 
 These work like the others do, in pretty much the same way, lets look:
-```python
+```python3
 my_dogs_weight = 40
 my_cats_weight = 10
 weights_differ = my_dogs_weight != my_cats_weight
@@ -109,7 +109,7 @@ And as you would expect, `weights_differ` is `True`.
 ## Expressions in Conditional Statements
 
 Just as we can do `print(3 + 5)`, we can also do
-```python
+```python3
 if 3 == 5:
   print("the world is ending")
 print("i am outside of the condition")
@@ -119,7 +119,7 @@ print("i am outside of the condition")
 The logical operators have meaning used with Strings, greater than and less than
 compare the number of characters in both strings **including whitespace and
 punctuation**, while equals compares the contents of the Strings.
-```python
+```python3
 my_dogs_name = "Mrs Barks a lot"
 my_cats_name = "Mr also barks a lot, because cat's are weird"
 
@@ -134,7 +134,7 @@ longer`.
 Many new programmers fall into the trap of doing an extra comparason with
 conditional statements using a single variable.
 Take the earlier hungry.py example:
-```python
+```python3
 food = 5
 hungry = False
 
@@ -145,7 +145,7 @@ print(food)
 ```
 Many new programmers make the mistake of writing:
 
-```python
+```python3
 food = 5
 hungry = False
 
@@ -166,5 +166,5 @@ experienced programmers hate it (I may be one of them).
 > times, so it's important that it is easy to read.
 
 ---
-**Example003 - hungry.py**
+**Example003 - hungry.py**  
 **Exercise005 - who_is_older.py**

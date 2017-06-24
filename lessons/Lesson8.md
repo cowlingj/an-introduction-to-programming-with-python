@@ -12,7 +12,7 @@ list when we need to.
 ## Lists in Python
 
 We can create a list in python like so:
-```python
+```python3
 shopping = ["spam", "eggs", "coffee", "chocolate"]
 ```
 And there we have a list, the square brackets "[]" tell python that this
@@ -20,7 +20,7 @@ variable is a list, and we separate each item with commas.
 
 We can access items in a list by refering to their position in the list,
 otherwise known as an index.
-```python
+```python3
 first_item_to_buy = shopping[2]
 print("I need to buy " + first_item_to_buy)
 ```
@@ -36,7 +36,7 @@ index, but an index of -1 refers to the last element, -2 the second to last
 element and so on.
 
 In practice, creating and accessing items in a list looks like this:
-```python
+```python3
 shopping = ["spam", "eggs", "coffee", "chocolate"]
 
 first_item_to_buy = shopping[2]
@@ -59,7 +59,7 @@ get the length of a list by passing it to a function.
 ### len
 
 The **len** function takes in a list and gives us the number of items in that list.
-```python
+```python3
 shopping = ["spam", "eggs", "coffee", "chocolate"]
 list_length + len(shopping)
 print("I need to buy " + list_length + " items")
@@ -75,7 +75,7 @@ reason behind this is because of something called **object oriented
 programming**, we won't cover this in the course, but we don't need to in
 order to use these functions.
 
-```python
+```python3
 shopping = ["spam", "eggs", "coffee"]
 
 print("shopping list currently " + len(shopping) + " long")
@@ -90,14 +90,14 @@ print("now the shopping list is " + len(shopping) + " long")
 > `append("chocolate")` onto that list with a dot `.` to give us
 > `shopping.append("chocolate")`.
 
-What **append** does is add the item to the end of the list. 
+What **append** does is add the item to the end of the list.
 
 ### remove
 
 Removing an item is pretty similar, we just call the **remove** function in the
 same way.
 
-```python
+```python3
 shopping = ["spam", "eggs", "coffee", "chocolate", "oranges"]
 
 print("The last item in the list is " + shopping[-1])
@@ -115,7 +115,7 @@ The **insert** function is similar to the append function, however the insert
 function inserts an item at a particular position.
 This means we must pass two things to the **insert** function, the position to
 insert the item at and the item to insert, this can be done like so:
-```python
+```python3
 compass_directions = ["north", "east", "south", "west"]
 print(compass_directions)
 compass_directions.insert(1, "north-east")
@@ -134,3 +134,5 @@ bettween each insert.
 > **index**, we won't cover them in this course but feel free to find out about
 > them,(click here)[https://docs.python.org/3/tutorial/datastructures.html] to
 > look at some more list functions.
+---
+ADD STUFF HERE

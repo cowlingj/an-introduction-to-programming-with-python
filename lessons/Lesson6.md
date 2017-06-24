@@ -3,7 +3,7 @@
 ## Multiple Conditional Statements in a Single Condition
 We can use the word **and** as well as **or** to combine as many conditions,
 like so:
-```python
+```python3
 duck_says = "quack"
 cow_says = "moo"
 if duck_says == "quack" and cow_says == "moo":
@@ -23,7 +23,7 @@ Yes - the conditions either side of **and** are first evaluated and then the
 results of both conditions are passed to **and**, it is just as valid for these
 operands to be variables, and perfectly okay to use and outside of an if
 statement.
-```python
+```python3
 i_am_rich = False
 i_can_code = True
 
@@ -36,7 +36,7 @@ suprises that `i_should_be_a_programmer == True`!
 ### or
 Either operand of **or** must be True for an **or** to be True, **or**
 operations also give us True if both operands are True.
-```python
+```python3
 there_are_puppies = False
 there_is_code = True
 there_is_coffee = True
@@ -56,7 +56,7 @@ if there_are_puppies or (there_is_code and there_is_coffee):
 We can do things if a condition is not met, including testing for more
 conditions, we can do this using **else** and **elif** (short for else if).
 Let's see else in action.
-```python
+```python3
 parents_are_looking = False
 BANANA_ID = 1
 CHOCOLATE_ID = 2
@@ -78,7 +78,7 @@ As far as **elif** goes, it's quite similar to else but with another condition,
 so the first condition in the statement (the if part) must be false, and the
 condition for the **elif** must be true for the body of the **elif** part to
 execute.
-```python
+```python3
 weather = "overcast"
 
 if weather == "sunny":
@@ -120,6 +120,6 @@ first.
 > to read when the body of the second statement is in the **else** of the first.
 
 ---
-**Example004 - weather.py**
-**Example005 - xor.py**
+**Example004 - weather.py**  
+**Example005 - xor.py**  
 **Exercise006 - birthday_greeter.py**

@@ -4,7 +4,7 @@
 
 Lets say we want to make python count to 5 by making it decide whether or not
 to print and increment, the code may look something like this:
-```python
+```python3
 counter = 1
 
 if counter <= 5:
@@ -58,7 +58,7 @@ Time so see that a loop in action then...
 
 ### while
 
-```python
+```python3
 
 counter = int(input("count from this number to 5 "))
 
@@ -83,4 +83,4 @@ when the loop is finished.
 > know how to force the program to stop!
 
 ---
-**Example005 - infinite_loop.py** 
+**Example005 - infinite_loop.py**

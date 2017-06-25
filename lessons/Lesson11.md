@@ -96,4 +96,6 @@ REPL can install 3rd party modules with the _libraries_ button (cube looking
 button) in the top right of the editor.
 
 ---
-LINKS!!!
+Example - eulers_formula.py
+Example - stopwatch.py
+Exercise - guess_my_number.py

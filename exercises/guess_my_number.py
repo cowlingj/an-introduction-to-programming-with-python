@@ -9,7 +9,7 @@
 
 
 # get the distance each user was from the answer
-s
+
 
 # make both values positive since it doesn't matter if too high or too low,
 # only who is closer

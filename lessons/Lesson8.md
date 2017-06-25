@@ -130,6 +130,16 @@ print(compass_directions)
 The example creates a list and inserts 4 items one by one, printing the list
 bettween each insert.
 
+Just remember that insert won't replace the item at the given position, to do
+this we access the item in the list and use the assignment operator to assign a
+new value in that position.
+```python3
+dwarfs = ["Doc", "Grumpy", "Happy", "Sleepy", "Dopey", "BoreneAgainSHell-ful",
+          "Sleepy"]
+dwarfs[5] = "Bashful"
+print(dwarfs)
+```
+
 > There are some other useful functions on lists in python like **find** and
 > **index**, we won't cover them in this course but feel free to find out about
 > them,(click here)[https://docs.python.org/3/tutorial/datastructures.html] to

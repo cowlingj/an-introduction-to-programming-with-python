@@ -35,4 +35,4 @@ number_of_balls += 1
 print("there is " + number_of_balls + " balls")
 ```
 ---
-[Lesson04 - Operations](../lessons/Lesson04.md)
+**[Lesson04 - Operations](../lessons/Lesson04.md)**  

@@ -116,9 +116,9 @@ print("i am outside of the condition")
 ```
 ## Comparing Strings
 
-The logical operators have meaning used with Strings, greater than and less than
+The logical operators have meaning used with strings, greater than and less than
 compare the number of characters in both strings **including whitespace and
-punctuation**, while equals compares the contents of the Strings.
+punctuation**, while equals compares the contents of the strings.
 ```python3
 my_dogs_name = "Mrs Barks a lot"
 my_cats_name = "Mr also barks a lot, because cat's are weird"

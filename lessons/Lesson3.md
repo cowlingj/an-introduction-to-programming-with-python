@@ -14,7 +14,7 @@ what to type.
 
 Let's see an example of the print function.
 
-```python
+```python3
 input("hello who are you? ")
 ```
 
@@ -24,7 +24,7 @@ input("hello who are you? ")
 But there isn't much point in getting the user to input something without
 assigning it a variable, if we want to use that input we need to instead write:
 
-```python
+```python3
 username = input("hello who are you?")
 ```
 

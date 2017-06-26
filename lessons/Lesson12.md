@@ -89,7 +89,7 @@ on to create something huge.
 
 ---
 I've tried to select links that hopefully won't break any time soon, but they
-will eventually - please report any broken links in [feedback](feedback).
+will eventually - please report any broken links in [feedback](../feedback).
 
 **[PyQt - Official](https://wiki.python.org/moin/PyQt)**  
 **[PyQt - TutorialsPoint](https://www.tutorialspoint.com/pyqt/)**  

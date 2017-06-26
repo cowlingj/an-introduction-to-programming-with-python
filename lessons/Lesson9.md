@@ -73,7 +73,7 @@ backwards.
 
 Looking back at (lesson 2)[#], remember the definition we gave to a string:
 
-> A String is a list of letters or characters...
+> A string is a list of letters or characters...
 
 Since a string is a list of characters, it should be no surprise that all of the
 things we can do with lists, slicing, operations, functions, we can do on

@@ -59,15 +59,15 @@ second_half = ""
 
 ## Mixing data types
 
-So what happens when we add a String to an integer or float?
+So what happens when we add a string to an integer or float?
 don't know?
 Well neither does python!
 If we try to add a string and a number we get an error message:
 
 `TypeError: unsupported operand type(s) for +: 'int' and 'str'`
 
-This means that there is no such thing as integer + String, this makes a lot of
-sense actually, what does it mean to "+" a number and a String, what would
+This means that there is no such thing as integer + string, this makes a lot of
+sense actually, what does it mean to "+" a number and a string, what would
 `"chocolate" - 7` actually result in - nothing that makes any sense!
 
 ## Operations inside functions
@@ -80,21 +80,21 @@ So as far as a computer is concerned "4", 4, and 4.0 are all completely
 different but we know they all mean the same thing, we can use casting to "turn"
 one data type into another (if it would make sense to).
 
-**`str()`** is a function that turns what is given to it into a String.
+**`str()`** is a function that turns what is given to it into a string.
 **`int()`** is a function that turns what is given to it into an integer.
 **`float()`** is a function that turns what is given to it into a float.
 
-So to turn the String "4" into the integer 4 we need to do this `int("4")`,
+So to turn the string "4" into the integer 4 we need to do this `int("4")`,
 this is especially useful when dealing with user input since the **input()**
-function always gives us a String, even if we want something else.
+function always gives us a string, even if we want something else.
 
 But what happens when we try `int("fred")`?
 
 `ValueError: invalid literal for int() with base 10: 'fred'`
 
-There is no value of integer for the String "fred", so we get an error.
+There is no value of integer for the string "fred", so we get an error.
 
-> Forgetting to cast something or accidentally adding a String to a number are
+> Forgetting to cast something or accidentally adding a string to a number are
 > quite common mistakes, don't be worried about getting error messages like
 > those seen here, understanding error messages is a big part of becoming a good
 > programmer.

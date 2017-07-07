@@ -40,8 +40,8 @@ or with more tools to make programming quicker and easier (get it from the
 **Want a challenge?**  pro git
 There is one more exercise, and one more example, they use
 most of the concepts we have discussed in the course - have a look at
-[employee_tracker](examples/employee_tracker.py),
-and create a game of [snakes and ladders](exercises/snakes_and_ladders.py).
+[employee_tracker](../examples/employee_tracker.py),
+and create a game of [snakes and ladders](../exercises/snakes_and_ladders.py).
 
 **Want to help others?**  
 show them this course, or even contribute to this course

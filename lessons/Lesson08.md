@@ -84,11 +84,9 @@ shopping.append("chocolate")
 
 print("now the shopping list is " + len(shopping) + " long")
 ```
-> We can think of appending to a list as calling the function
-> `append("chocolate")` but python doesn't know what list to add it to,
-> so we first specify the list with `shopping` then we attach
-> `append("chocolate")` onto that list with a dot `.` to give us
-> `shopping.append("chocolate")`.
+> We can think of this new dot syntax as calling the `append("chocolate")`
+> function that belongs to a certain list, in this case we call the
+> `append("chocolate")` function that belongs to the list called `shopping`.
 
 What **append** does is add the item to the end of the list.
 

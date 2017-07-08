@@ -1,103 +1,101 @@
-# Lesson 12
+# Lesson 10
 
-## Wrapping things up
+## Modules
 
-So This course is comming to an end, lets look at what we have learned.
+Modules are a handy way to increase functionality of a program, by giving it
+access to things already written by others.
+Rather than use modules, it's possible to write all of the
+modules contents ourself.
+We don't do this because it's quicker and easier to use modules,
+and good modules have fewer bugs than programs we would write
+ourselves at this stage - so why reinvent the wheel?
 
-So we started with hello world, then looked at variables and data types, as
-well as user input.
-later we used mathematical operations, conditional expressions, loops and
-arrays.
-We finished up with functions and modules.
+> We won't cover creating our own modules, since that's best
+> learnt after understanding object oriented programming.
+> But we will go over using them, since it'll make programming
+> much easier.
 
-## Where to Next
+## Importing Modules
 
-Okay so that's what we've done, where to next?
-First of all, if you haven't looked at much of the examples or exercises, give
-them a try; if you have some of the following things may be of intrest.
+We can get access to modules available to us by importing them,
+we can import any of pythons standard modules this way (we can
+import 3rd party modules by downloading them first).
+```python3
+import sys
+```
 
-**Want to learn more advanced things?**  
-Take a look at
-[object oriented programming](https://www.tutorialspoint.com/python/python_classes_objects.htm);
-a very well used programming paradigm that even for a course as simple as this,
-we've been exposed to in order to do some of the things we have.
+If we don't need the full module we can get specific parts of
+it.
+```python3
+from sys import builtin_module_names
+```
 
-**Want to write graphical pragrams you can show off?**  
-Try the [curses module](https://docs.python.org/3/howto/curses.html)
-or [PyQt](https://wiki.python.org/moin/PyQt),
-both of these modules are used to
-make graphical user interfaces (or GUIs), with curses being used
-for terminal style GUIs and PyQt being for window style GUIs.
+We can choose the name we use to access a single module, or
+specific part.
+```python3
+from sys import builtin_module_names as modules
+```
 
-> You may have trouble using REPL.it with these modules.
+Even though it's not advised, we can import all the functions
+and variables from the module, without importing the module
+itself, allowing us to access everything from the module
+directly.
+```python3
+from Sys import *
+```
+> If a variable in the module happens to have the same name as
+> a variable you have made there may be unexpected consequences
+> if we import everything from a module this problem is more
+> likely because it's unlikely we know everything inside the
+> module or plan to use it.
 
-**Like python? Go ahead and install it?**  
-Python can be installed on all major opperating systems, comming
-either as just the simple interpreter like we've been working with,
-or with more tools to make programming quicker and easier (get it from the
-[offical python website](https://www.python.org/downloads/)).
+## Using Modules
 
-**Want a challenge?**  pro git
-There is one more exercise, and one more example, they use
-most of the concepts we have discussed in the course - have a look at
-[employee_tracker](examples/employee_tracker.py),
-and create a game of [snakes and ladders](exercises/snakes_and_ladders.py).
+We can use functions and variables belonging to the module
+by using the same dot style syntax as we did for working with
+arrays, so: `sys.builtin_module_names` or
+`sys.exit(0)`. If we imported specific
+things directly from the function, then we can access them
+directly.
 
-**Want to help others?**  
-show them this course, or even contribute to this course
-with examples exercises, lessons, or extra credit.
+## Modules with Python
 
-**Perhaps you're curious as to how this course was created, or just want to
-learn another really cool tool, that can help both in and outside of
-programming**
-If that's the case take a look at version control, I've used
-[git](https://try.github.io/levels/1/challenges/1)
-to make this course, with GitHub but there are other version control
-systems out there, and they all could save a lot of pain -
-especially when working on bigger projects.
+Some useful modules in python are random, time, and sys,
+among many more.
+So let's see modules in action:
+```python3
+import sys
+from time import strftime
 
-**Want more Practice?**
-There are plenty of places where you can play around with programming and try
-even more examples, just one example is [code wars](https://www.codewars.com/)
-a website where you can take on challenges in python or many other languages
-of choice.
+print("date and time: " + strftime("%c"))
+print("you are running: " + sys.platform)
+```
 
-**Interested in the world of programming?**  
-There's plenty more than python,
-there are many programming languages such as java, ruby, go, and C++, or
-you could even learn some web development, starting with html and css
-[(w3schools)](https://www.w3schools.com/) may be useful here.
+We can see how this is much easier than trying to write this
+functionality from scratch.
 
-**Perhaps this isn't for you**  
-In that case then I hope you enjoyed your little
-peak into the world that is programming, and hopefully youv'e gained something
-useful from this course.
+## Documentation
 
-## Feedback
-If you can leave any feedback to help me improve the course, that
-would be much appreciated.
+We can make things much easier for us using modules, however
+to know how to use the modules we import, we need to look at the module's
+documentation. Modules ofthen have documentation on the internet, common
+places to find it are GitHub, PIP and the official python
+documentation (we can also try to look for tutorials or videos for popular
+modules). If the module is a standard one such as **time** or **sys**
+then we can find documentation on the
+[official python website](https://pip.pypa.io/en/stable/), if a module has been
+installed from somewhere else then we can usually find the documentation with
+the source (or at least a link to the documentation).
 
-## Learn Through Doing
-If you do choose to continue this journey, then make sure to focus on practice,
-practice is the key to programming, there's no shame in needing to look things
-up, even professionals forget things and need to refer to documentation, and
-even professionals keep learning; that's a truth you may come accross quite
-often - in Programming you **never** stop learning.
+## PIP
 
-So keep on learning, and best of luck; from these humble beggings you could go
-on to create something huge.
+PIP is a package management system that is recomended by python, we use PIP to
+install modules or groups of modules which come in packages, if you have
+python installed on your machine then using PIP is a good idea.
+REPL can install 3rd party modules with the _libraries_ button (cube looking
+button) in the top right of the editor.
 
 ---
-I've tried to select links that hopefully won't break any time soon, but they
-will eventually - please report any broken links in [feedback](../feedback).
-
-**[PyQt - Official](https://wiki.python.org/moin/PyQt)**  
-**[PyQt - TutorialsPoint](https://www.tutorialspoint.com/pyqt/)**  
-**[Curses - Official](https://docs.python.org/3/howto/curses.html)**  
-**[Git and GitHub](https://try.github.io/levels/1/challenges/1)**  
-**[Code Wars](https://www.codewars.com/)**  
-**[Codecademy](https://www.codecademy.com/)**  
-**[Free Code Camp](https://www.freecodecamp.com)**  
-**[W3Schools](https://www.w3schools.com/)**  
-**[Pro Git - Free Book](https://git-scm.com/book/en/v2)**  
-**[Object oriented programming](https://www.tutorialspoint.com/python/python_classes_objects.htm)**  
+Example - eulers_formula.py
+Example - stopwatch.py
+Exercise - guess_my_number.py

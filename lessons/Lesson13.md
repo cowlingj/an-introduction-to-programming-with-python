@@ -37,7 +37,7 @@ either as just the simple interpreter like we've been working with,
 or with more tools to make programming quicker and easier (get it from the
 [offical python website](https://www.python.org/downloads/)).
 
-**Want a challenge?**  pro git
+**Want a challenge?**  
 There is one more exercise, and one more example, they use
 most of the concepts we have discussed in the course - have a look at
 [employee_tracker](../examples/employee_tracker.py),

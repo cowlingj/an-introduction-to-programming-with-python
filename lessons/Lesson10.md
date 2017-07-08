@@ -144,3 +144,5 @@ We can close a file with the file's **close()** function
 file_to_close = open("myFile")
 file_to_close.close()
 ```
+---
+ADD STUFF HERE!!!

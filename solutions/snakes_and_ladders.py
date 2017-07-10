@@ -64,6 +64,8 @@ ladder5 = [69, 80]
 ladder_list = [ladder1, ladder2, ladder3, ladder4, ladder5]
 
 # an empty list for the players
+# to be filled with lists of two representing each player
+# player = [player_number, player_location]
 player_list = []
 
 ################################################################################
@@ -91,12 +93,13 @@ def setup(number_of_players):
       # add as many players to the list as given
       for player_number in range(real_number_of_players):
         player_list.append([player_number + 1, 1])
-      # if the list is too long then the user added an illegal number
-      # if thats the case clear the list and try again
-      # if the list is okay, then we have a valid setup
+        # if the list is too long then the user added an illegal number
+        # if thats the case clear the list and try again
+        # if the list is okay, then we have a valid setup
       if len(player_list) <= MAX_NUMBER_OF_PLAYERS:
         valid_setup = True
       else:
+        print("invalid setup!")
         player_list.clear()
     else:
       # do the same thing for non-zero values for number_of_players
@@ -107,6 +110,7 @@ def setup(number_of_players):
       else:
         # don't forget to set the number_of_players to 0, to prevent an
         # infinte loop
+        print("invalid setup!")
         player_list.clear()
         number_of_players = 0
 
@@ -173,30 +177,46 @@ def win(player_number):
 ################################### RUN ########################################
 ################################################################################
 
-# Setup the game or display help
+# wraps the function so we can access argv through REPL.it
+def run(args):
 
-# If an arguments are passed, it is either the help message
-# or the number of players
-if argv[1] == "--help" or argv[1] == "-h":
-  print(HELP_MESSAGE)
-  exit(0)
-elif argv[1] == "-p" or argv[1] == "--players":
-  setup(int(argv[2]))
-else:
-  setup(0)
+  # part of REPL.it compatability
+  if RUNNING_ON_RELPIT:
+    print("REPL.it compatability mode active")
+    args.insert(0,"snakes_and_ladders.py")
 
-# Play the game
-  # every player should take a turn
-  for player in player_list:
-    # if no one has won then they go through with the turns
-    while no_one_has_won:
-      # let players know a new round is starting
-      print("\n\n\nnew round...\n\n\n")
-      # let the player whos turn it is know it's their turn
-      print("player " + str(player[0]) + ", it's your turn")
-      # that player should then take a turn
-      player[1] = take_turn(player[1])
-      # if the player has made it to the WINNING_LOCATION then call
-      # the win function the program should then end
-      if player[1] == WINNING_LOCATION:
-        win(player[0])
+
+  # Setup the game or display help
+
+  # If an arguments are passed, it is either the help message
+  # or the number of players
+  if len(args) == 2:
+    if args[1] == "--help" or args[1] == "-h":
+      print(HELP_MESSAGE)
+      exit(0)
+  elif len(args) == 3:
+    if args[1] == "-p" or args[1] == "--players":
+      setup(int(args[2]))
+  else:
+    setup(0)
+
+  # Play the game
+  # if no one has won then they go through with the turns
+  while no_one_has_won:
+    # every player should take a turn
+    # let players know a new round is starting
+    print("\n\n\nnew round...\n\n\n")
+    for player in player_list:
+      if no_one_has_won:
+        # let the player whos turn it is know it's their turn
+        print("player " + str(player[0]) + ", it's your turn")
+        # that player should then take a turn
+        player[1] = take_turn(player[1])
+        # if the player has made it to the WINNING_LOCATION then call
+        # the win function the program should then end
+        if player[1] == WINNING_LOCATION:
+          win(player[0])
+
+# part of REPL.it compatability
+if not RUNNING_ON_RELPIT:
+ run(argv)

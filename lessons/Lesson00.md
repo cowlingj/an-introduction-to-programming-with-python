@@ -53,4 +53,4 @@ but for the sake of simplicity it's best to use python 3
 
 ---
 
-[next lesson](./Lesson01.md)  
+**[next lesson](./Lesson01.md)**  

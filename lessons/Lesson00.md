@@ -50,3 +50,7 @@ older version.
 It's recommended to use python 3 while following along with this course, there
 are a only a few differences between the versions that will affect this course,
 but for the sake of simplicity it's best to use python 3
+
+---
+
+[next lesson](./Lesson01.md)  

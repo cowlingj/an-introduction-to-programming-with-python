@@ -32,4 +32,6 @@ so now when we refer to `username` we are refrencing the string of text the user
 entered.
 
 ---
-**No examples or exercises here, onto the next lesson!**
+**[Exercise003 - repeat_me.py](../repeat_me.py)**  
+**[previous lesson](./Lesson02.md)**  
+**[next lesson](./Lesson04.md)**  

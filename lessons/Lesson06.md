@@ -120,6 +120,8 @@ first.
 > to read when the body of the second statement is in the **else** of the first.
 
 ---
-**Example004 - weather.py**  
-**Example005 - xor.py**  
-**Exercise006 - birthday_greeter.py**
+**[Example004 - weather.py](../examples/weather.py)**  
+**[Example005 - xor.py](../examples/xor.py)**  
+**[Exercise006 - birthday_greeter.py](../exercises/birthday_greeter.py)**  
+**[previous lesson](./Lesson05.md)**  
+**[next lesson](./Lesson07.md)**  

@@ -1,5 +1,3 @@
-#!/usr/env python3
-################################################################################
 # infinite_loop.py
 
 # lets ask for a starting number

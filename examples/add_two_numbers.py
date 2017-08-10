@@ -1,6 +1,9 @@
-#!/usr/bin/env python3
-################################################################################
 # add_two_numbers.py
+
+"""
+Demonstrates the correct way to add two numbers from user input,
+converting them to ints before adding
+"""
 
 # ask the user for the numbers, and convert them to integers
 first_number = int(input("pick a number, any number "))

@@ -1,6 +1,9 @@
-#!/usr/env python3
-################################################################################
 # eulers_formula.py
+
+"""
+This program carries out a mathematical operation that cannot be done without
+the complex number system, for this reason we need to import the cmath module
+"""
 
 # this module contains mathematics with complex numbers, for most cases
 # just import math - but we need cmath here

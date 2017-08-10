@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-################################################################################
 # hungry.py
 
 # the amount of "food" a person has, represented as an integer
@@ -15,4 +13,3 @@ if hungry:
 
 # lets print out the number ascociated with the amount of food
 print(food)
-

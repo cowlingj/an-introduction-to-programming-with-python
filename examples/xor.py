@@ -1,5 +1,3 @@
-#!/usr/env python3
-################################################################################
 # xor.py
 
 # bellow we have 3 ways to do the same thing, consider how easy each method is

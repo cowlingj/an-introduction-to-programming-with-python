@@ -1,6 +1,9 @@
-#!/usr/bin/env python3
-################################################################################
 # birthday_greeter.py
+
+""""
+Greets people of different ages with a birthday message,
+has special messages for key birthdays.
+"""
 
 # get the users age
 age = int(input("Enter your age today "))

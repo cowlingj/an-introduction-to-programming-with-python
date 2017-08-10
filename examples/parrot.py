@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-################################################################################
 # parrot.py
 
 # use the input function to get user input

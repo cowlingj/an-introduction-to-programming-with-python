@@ -1,6 +1,9 @@
-#!/usr/bin/env python3
-################################################################################
 # add_two_numbers_wrong.py
+
+"""
+Demonstrates a simple bug that can arise from trying to add two "numbers"
+together which are in face strings
+"""
 
 # ask the user for the numbers
 first_number = input("pick a number, any number ")

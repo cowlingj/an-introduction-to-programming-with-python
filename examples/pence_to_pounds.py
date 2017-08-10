@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-################################################################################
 # pence_to_pounds.py
 
 # ask the user how many pennies they have

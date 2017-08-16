@@ -142,6 +142,8 @@ print(dwarfs)
 > **index**, we won't cover them in this course but feel free to find out about
 > them,(click here)[https://docs.python.org/3/tutorial/datastructures.html] to
 > look at some more list functions.
+
+---
 ---
 **[previous lesson](./Lesson07.md)**
 **[previous lesson](./Lesson09.md)**

@@ -102,6 +102,7 @@ Exercise - guess_my_number.py
 ---
 **[Example NNN](../examples/eulers_formula.py)**  
 **[Exercise NNN](../exercises/stopwatch.py)**  
+
 ---
 **[previous lesson](./Lesson11.md)**
 **[previous lesson](./Lesson13.md)**

@@ -79,6 +79,7 @@ string "my_first_variable", we dont use quotes when using print.
 
 ---
 **[Exercise002 - variable_questions.md](../exercises/variable_questions.md)**  
+
 ---
 **[previous lesson](./Lesson01.md)**  
 **[next lesson](./Lesson03.md)**  

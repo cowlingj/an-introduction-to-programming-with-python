@@ -95,11 +95,13 @@ I've tried to select links that hopefully won't break any time soon, but they
 will eventually - please report any broken links in
 [issues](https://github.com/cowlingj/an-introduction-to-programming-with-python/issues)
 give any other feedback in there too.  
+
 **[PyQt - Official](https://wiki.python.org/moin/PyQt)**  
 **[PyQt - TutorialsPoint](https://www.tutorialspoint.com/pyqt/)**  
 **[Curses - Official](https://docs.python.org/3/howto/curses.html)**  
 **[Git and GitHub](https://try.github.io/levels/1/challenges/1)**  
 **[Code Wars](https://www.codewars.com/)**  
+
 **[Codecademy](https://www.codecademy.com/)**  
 **[Free Code Camp](https://www.freecodecamp.com)**  
 **[W3Schools](https://www.w3schools.com/)**  

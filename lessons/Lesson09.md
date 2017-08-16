@@ -13,7 +13,7 @@ print(year_group_9)
 The * operator can be used between a list and an integer too, this is equivalent
 to creating a new list of a number of copies of the supplied list all appended
 to one another.
-```python
+```python3
 party_items_per_person = ["party hat", "balloon", "party popper"]
 guests_at_party = 3
 total_party_items = party_items_per_person * guests_at_party
@@ -30,7 +30,7 @@ create a new list `total_party_items` which consists of every element in
 List slicing allows us to get sections of the list, or sub-lists from a list,
 and works in a similar way to accessing an item in the list by an index, but
 instead of using a single index, we use a range of indecies to give us a list.
-```python
+```python3
 sports = ["football", "basketball", "netball", "cricket", "tennis", "badminton",
           "athletics"]
 ball_sports = sports[0 : -1]
@@ -53,7 +53,7 @@ the sub-list does not include the item at the ending index**
 
 We can also choose to take every other item, or every third item, and so on by
 adding a little more to our slice like so:
-```python
+```python3
 sports = ["football", "basketball", "netball", "cricket", "tennis", "badminton",
           "athletics"]
 sports_i_watch = sports[ : 6 : 2]
@@ -84,7 +84,7 @@ list sections with strings too.
 
 Another type of loop is a **for** loop, this type of loop doesn't use a boolean
 condition, instead it works by looking at each item in a list.
-```python
+```python3
 pet_store = ["spot", "rex", "luca", "oscar", "bob"]
 
 for pet in pet_store:
@@ -111,4 +111,5 @@ the third is the number to increment by - just like with list slicing, so
 `range(2, 6, 2)` is `[2, 4]`.
 
 ---
-ADD STUFF HERE!!!
+**[previous lesson](./Lesson08.md)**
+**[previous lesson](./Lesson10.md)**

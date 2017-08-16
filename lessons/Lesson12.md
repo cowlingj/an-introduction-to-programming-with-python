@@ -99,3 +99,6 @@ button) in the top right of the editor.
 Example - eulers_formula.py
 Example - stopwatch.py
 Exercise - guess_my_number.py
+---
+**[previous lesson](./Lesson11.md)**
+**[previous lesson](./Lesson13.md)**

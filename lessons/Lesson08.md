@@ -143,4 +143,5 @@ print(dwarfs)
 > them,(click here)[https://docs.python.org/3/tutorial/datastructures.html] to
 > look at some more list functions.
 ---
-ADD STUFF HERE
+**[previous lesson](./Lesson07.md)**
+**[previous lesson](./Lesson09.md)**

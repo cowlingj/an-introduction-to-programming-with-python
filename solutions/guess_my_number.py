@@ -1,5 +1,4 @@
-#!/usr/env python3
-################################################################################
+
 # guess_my_number.py
 
 from random import randint

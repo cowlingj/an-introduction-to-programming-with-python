@@ -1,5 +1,4 @@
-#!/usr/env python3
-################################################################################
+
 # parrot_loop.py
 
 # print out a help message for the user

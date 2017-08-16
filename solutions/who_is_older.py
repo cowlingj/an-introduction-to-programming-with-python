@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-################################################################################
+
 # who_is_older.py
 
 # get the first users name

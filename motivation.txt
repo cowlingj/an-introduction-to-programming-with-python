@@ -1,0 +1,13 @@
+An Introduction to programming with Python
+
+Get started with programming with this simple course.
+Go from your first hello world program to a basic
+game, and pick up some handy tips and tricks along
+the way.
+If you have always wondered what all this 'geek speak'
+is about, if you always wanted to be able to write
+programs, or just in need of a quick refresher,
+then this is for you.
+there are lessons, examples and some challenges for you
+to try, so come along and take the plunge into a world
+of code! 

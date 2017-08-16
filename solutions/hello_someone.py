@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-################################################################################
+
 # hello_someone.py
 
 # ask the user for their name

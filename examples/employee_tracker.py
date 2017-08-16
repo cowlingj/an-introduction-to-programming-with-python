@@ -1,6 +1,10 @@
-#!/usr/env python3
-################################################################################
 # employee_tracker.py
+
+"""
+Demonstrates functions and modules through a program which manages data,
+carrying out what are know as CRUD operations: Create, Read, Update, Delete.
+The program works with basic employee data.
+"""
 
 import sys
 

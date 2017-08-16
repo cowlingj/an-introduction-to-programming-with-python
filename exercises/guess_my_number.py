@@ -1,5 +1,3 @@
-#!/usr/env python3
-################################################################################
 # guess_my_number.py
 
 # get both users to guess a number

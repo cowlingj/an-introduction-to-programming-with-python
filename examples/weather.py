@@ -1,11 +1,9 @@
-#!/usr/bin/env python3
-################################################################################
 # weather.py
 
 # a string representiing the weather, we could have go this from user input
 weather = "overcast"
 
-# using if and elif, do different things for many specific values of weather 
+# using if and elif, do different things for many specific values of weather
 if weather == "sunny":
   print("i'm going to need sunscreen")
 elif weather == "cloudy" or weather == "overcast":

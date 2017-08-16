@@ -1,5 +1,3 @@
-#!/usr/env python3
-################################################################################
 # stopwatch.py
 
 # we use the time and date time modules from the standard library

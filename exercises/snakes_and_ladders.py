@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+# snakes_and_ladders.py
 # we need argv from sys and randint from random
 # argv is optional but it allows the setup to be done quicker
 

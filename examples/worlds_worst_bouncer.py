@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-################################################################################
 # worlds_worst_bouncer.py
 
 # get the users age

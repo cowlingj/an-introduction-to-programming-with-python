@@ -41,7 +41,10 @@ or with more tools to make programming quicker and easier (get it from the
 There is one more exercise, and one more example, they use
 most of the concepts we have discussed in the course - have a look at
 [employee_tracker](../examples/employee_tracker.py),
-and create a game of [snakes and ladders](../exercises/snakes_and_ladders.py).
+and create a game of
+[snakes and ladders](../project/exercise/snakes_and_ladders.py) (don't worry
+there is some [pseudo code](../project/pseudo_code/Snakes_pseudo_code.md)
+to help you).
 
 **Want to help others?**  
 show them this course, or even contribute to this course
@@ -89,7 +92,9 @@ on to create something huge.
 
 ---
 I've tried to select links that hopefully won't break any time soon, but they
-will eventually - please report any broken links in [feedback](../feedback).
+will eventually - please report any broken links in
+[issues](https://github.com/cowlingj/an-introduction-to-programming-with-python/issues)
+give any other feedback in there too.
 
 **[PyQt - Official](https://wiki.python.org/moin/PyQt)**  
 **[PyQt - TutorialsPoint](https://www.tutorialspoint.com/pyqt/)**  

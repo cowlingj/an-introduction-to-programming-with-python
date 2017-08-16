@@ -104,5 +104,6 @@ There is no value of integer for the string "fred", so we get an error.
 **[Example002 - add_two_numbers.py](../examples/add_two_numbers.py)**  
 **[Example003 - parrot.py](../examples/parrot.py)**  
 **[Exercise003 - hello_someone.py](../exercises/hello_someone.py)**  
+---
 **[previous lesson](./Lesson03.md)**  
 **[next lesson](./Lesson05.md)**  

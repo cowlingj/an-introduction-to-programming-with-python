@@ -145,4 +145,5 @@ file_to_close = open("myFile")
 file_to_close.close()
 ```
 ---
-ADD STUFF HERE!!!
+**[previous lesson](./Lesson09.md)**
+**[previous lesson](./Lesson11.md)**

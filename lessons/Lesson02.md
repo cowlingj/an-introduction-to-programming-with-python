@@ -44,7 +44,7 @@ So what things exactly can we store a refrence to?
 
 There are some rules for naming variables in python:
 
-1. A variable name can only begin with a letter or underscore "_".
+1. A variable name can only begin with a letter or underscore "\_".
 2. A variable may contain letters, numbers, or underscores.
 3. Variable names are **case sensitive**.
 4. A variable cannot have the same name as one of pythons keywords.
@@ -79,5 +79,6 @@ string "my_first_variable", we dont use quotes when using print.
 
 ---
 **[Exercise002 - variable_questions.md](../exercises/variable_questions.md)**  
+---
 **[previous lesson](./Lesson01.md)**  
 **[next lesson](./Lesson03.md)**  

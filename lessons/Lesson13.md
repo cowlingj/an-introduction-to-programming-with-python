@@ -101,11 +101,11 @@ give any other feedback in there too.
 **[Curses - Official](https://docs.python.org/3/howto/curses.html)**  
 **[Git and GitHub](https://try.github.io/levels/1/challenges/1)**  
 **[Code Wars](https://www.codewars.com/)**  
-
 **[Codecademy](https://www.codecademy.com/)**  
 **[Free Code Camp](https://www.freecodecamp.com)**  
 **[W3Schools](https://www.w3schools.com/)**  
 **[Pro Git - Free Book](https://git-scm.com/book/en/v2)**  
 **[Object oriented programming](https://www.tutorialspoint.com/python/python_classes_objects.htm)**  
+
 ---
 **[return](https://github.com/cowlingj/an-introduction-to-programming-with-python/)**

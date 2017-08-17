@@ -6,7 +6,7 @@ Lists are another data type, they are used to store related data, lets think
 about a list were all familiar with first, a shopping list.
 This shopping list can be considered a list of strings, so instead of having
 a variable assigned to each item in the shopping list, it would make more sense
-to have a variable for the shopping list and refrence a particular item on the
+to have a variable for the shopping list and reference a particular item on the
 list when we need to.
 
 ## Lists in Python
@@ -18,7 +18,7 @@ shopping = ["spam", "eggs", "coffee", "chocolate"]
 And there we have a list, the square brackets "[]" tell python that this
 variable is a list, and we separate each item with commas.
 
-We can access items in a list by refering to their position in the list,
+We can access items in a list by referring to their position in the list,
 otherwise known as an index.
 ```python3
 first_item_to_buy = shopping[2]
@@ -31,7 +31,7 @@ a history of very limited memory and resources and not wanting to waste any.
 So in our example, the first item `"spam"` has an index of 0, `"eggs"` has an
 index of 1, `"coffee"` an index of 3, and`"chocolate"` 4.
 
-Trying to access index 5 will cause an error since ther is no item with that
+Trying to access index 5 will cause an error since there is no item with that
 index, but an index of -1 refers to the last element, -2 the second to last
 element and so on.
 
@@ -126,7 +126,7 @@ compass_directions.insert(7, "north-west")
 print(compass_directions)
 ```
 The example creates a list and inserts 4 items one by one, printing the list
-bettween each insert.
+between each insert.
 
 Just remember that insert won't replace the item at the given position, to do
 this we access the item in the list and use the assignment operator to assign a

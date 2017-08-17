@@ -105,4 +105,4 @@ Exercise - guess_my_number.py
 
 ---
 **[previous lesson](./Lesson11.md)**
-**[previous lesson](./Lesson13.md)**
+**[next lesson](./Lesson13.md)**

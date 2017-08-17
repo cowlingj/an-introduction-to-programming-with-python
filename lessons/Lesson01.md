@@ -24,6 +24,7 @@ Notice the brackets and quotes around what we want to print out.
 
 ---
 **[Exercise001 - hello_world.py](../exercises/hello_world.py)**  
+
 ---
 **[previous lesson](./Lesson00.md)**  
 **[next lesson](./Lesson02.md)**  

@@ -111,5 +111,6 @@ the third is the number to increment by - just like with list slicing, so
 `range(2, 6, 2)` is `[2, 4]`.
 
 ---
+---
 **[previous lesson](./Lesson08.md)**
 **[previous lesson](./Lesson10.md)**

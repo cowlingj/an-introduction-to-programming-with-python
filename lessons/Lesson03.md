@@ -33,6 +33,7 @@ entered.
 
 ---
 **[Exercise003 - repeat_me.py](../repeat_me.py)**  
+
 ---
 **[previous lesson](./Lesson02.md)**  
 **[next lesson](./Lesson04.md)**  

@@ -5,14 +5,14 @@
 We have already used functions in this course such as **print** and **input**,
 but what exactly are they and can we create something like that?
 
-A function is a way to spilit code, by giving a name to a specific section we
+A function is a way to split code, by giving a name to a specific section we
 can use that section when ever we need to. This means we don't have to repeat
-ourselves while writting code - which is very important in the world of
+ourselves while writing code - which is very important in the world of
 programming.
 
 ## defining functions
 
-We define a funtion using the **def** keyword, and giving the function a name
+We define a function using the **def** keyword, and giving the function a name
 (the same rules for naming variables apply), followed by a pair of brackets.
 The lines of code that are part of the function should be an indented block.
 ```python3
@@ -24,11 +24,11 @@ say_hello()
 functions allow us to execute that block of code anywhere just by calling its
 name.
 
-## paramiters
+## parameters
 
 We can pass arguments to functions we write, just ass we did with the built in
 functions, all we need to do is specify variables inside the brackets (these are
-caled paramiters), use them as normal variables inside the code,
+called parameters), use them as normal variables inside the code,
 then pass in the variables when we want to use the function.
 ```python3
 def area_of_a_square(side_length):
@@ -81,6 +81,7 @@ value.
 When this happen the function ends and passes that value back, so things after a
 retuen statement are unlikely to be executed.
 
+---
 ---
 **[previous lesson](./Lesson10.md)**
 **[previous lesson](./Lesson12.md)**

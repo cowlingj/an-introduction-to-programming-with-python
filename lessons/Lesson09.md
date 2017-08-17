@@ -113,4 +113,4 @@ the third is the number to increment by - just like with list slicing, so
 ---
 ---
 **[previous lesson](./Lesson08.md)**
-**[previous lesson](./Lesson10.md)**
+**[next lesson](./Lesson10.md)**

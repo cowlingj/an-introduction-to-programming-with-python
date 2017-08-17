@@ -30,7 +30,15 @@ We can pass arguments to functions we write, just ass we did with the built in
 functions, all we need to do is specify variables inside the brackets (these are
 called parameters), use them as normal variables inside the code,
 then pass in the variables when we want to use the function.
+
+> To clarify the difference between parameters and arguments:
+> we pass arguments to a function
+> a function can have parameters
+> (so parameters act as placeholders for arguments)
 ```python3
+
+magic_number = 6
+
 def area_of_a_square(side_length):
   area = sidelength * side_length
   print("A square of length " + side_length + " has an area of " + area)
@@ -39,6 +47,8 @@ area_of_a_square(2)
 
 area_of_a_square(4)
 
+area_of_a_square(magic_number)
+
 area_of_a_square(532)
 ```
 
@@ -46,7 +56,7 @@ area_of_a_square(532)
 > about variable being changed by a function - unless you use **global**,
 > which is often a bag idea.
 
-Just as with built in functions we can seperate paramiters with commas.
+Just as with built in functions we can separate parameters with commas.
 
 ## return
 
@@ -79,9 +89,16 @@ print("did you know the sum of squares 3 and 4 is the sum of the square 5?\n"
 So all we need to do to return a value is use the keyword return followed by the
 value.
 When this happen the function ends and passes that value back, so things after a
-retuen statement are unlikely to be executed.
+return statement are unlikely to be executed.
+
+> We can call functions in assignments to assign a variable the result, or even
+> call functions as arguments to other functions, passing across the return
+value
 
 ---
+**[Example NNN](../examples/adder.py)**  
+**[Exercise NNN](../exercises/calculator.py)**  
+
 ---
 **[previous lesson](./Lesson10.md)**
-**[previous lesson](./Lesson12.md)**
+**[next lesson](./Lesson12.md)**

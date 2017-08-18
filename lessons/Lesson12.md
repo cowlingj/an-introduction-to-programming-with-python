@@ -104,5 +104,5 @@ Exercise - guess_my_number.py
 **[Exercise NNN](../exercises/stopwatch.py)**  
 
 ---
-**[previous lesson](./Lesson11.md)**
+**[previous lesson](./Lesson11.md)**  
 **[next lesson](./Lesson13.md)**

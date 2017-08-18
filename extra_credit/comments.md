@@ -61,4 +61,4 @@ When commenting out code, remember to either uncomment or delete the commented
 out code completely - don't leave it in.
 
 ---
-Exercise - bug_fix.py
+**[Example - bug_fix](../examples/bug_fix.py)**

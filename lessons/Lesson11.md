@@ -100,5 +100,5 @@ value
 **[Exercise NNN](../exercises/calculator.py)**  
 
 ---
-**[previous lesson](./Lesson10.md)**
+**[previous lesson](./Lesson10.md)**  
 **[next lesson](./Lesson12.md)**

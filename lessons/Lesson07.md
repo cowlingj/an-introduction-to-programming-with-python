@@ -83,7 +83,7 @@ when the loop is finished.
 > know how to force the program to stop!
 
 ---
-**[Example06 - infinite_loop.py](../evamples/infinite_loop.py)**  
+**[Example06 - infinite_loop.py](../examples/infinite_loop.py)**  
 **[Exercise07 - parrot_loop.py](../exercises/parrot_loop.py)**  
 
 ---  

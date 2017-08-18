@@ -167,7 +167,7 @@ experienced programmers hate it (I may be one of them).
 
 ---
 **[Example03 - hungry.py](../examples/hungry.py)**  
-**[Exercise05 - who_is_older.py](./examples/who_is_older.py)**  
+**[Exercise05 - who_is_older.py](../examples/who_is_older.py)**  
 
 ---
 **[previous lesson](./Lesson04.md)**  

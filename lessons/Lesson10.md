@@ -145,8 +145,8 @@ file_to_close = open("myFile")
 file_to_close.close()
 ```
 ---
-**[Example NNN](../examples/register_writer.py)**  
-**[Exercise NNN](../exercises/absent_children.py)**  
+**[Example07 - register_writer.py](../examples/register_writer.py)**  
+**[Exercise10 - absent_children.py](../exercises/absent_children.py)**  
 
 ---
 **[previous lesson](./Lesson09.md)**  

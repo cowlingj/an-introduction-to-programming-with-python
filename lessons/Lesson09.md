@@ -112,7 +112,7 @@ the third is the number to increment by - just like with list slicing, so
 
 ---
 **[Example06 - multiply_number_list.py](../examples/multiply_number_list.py)**  
-**[Exercise 09 - factorial.py](../exercises/factorial.py)**  
+**[Exercise09 - factorial.py](../exercises/factorial.py)**  
 
 ---
 **[previous lesson](./Lesson08.md)**  

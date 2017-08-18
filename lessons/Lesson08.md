@@ -140,7 +140,7 @@ print(dwarfs)
 
 > There are some other useful functions on lists in python like **find** and
 > **index**, we won't cover them in this course but feel free to find out about
-> them,(click here)[https://docs.python.org/3/tutorial/datastructures.html] to
+> them, [click here](https://docs.python.org/3/tutorial/datastructures.html) to
 > look at some more list functions.
 
 ---

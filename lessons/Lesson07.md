@@ -83,9 +83,9 @@ when the loop is finished.
 > know how to force the program to stop!
 
 ---
-**[Example005 - infinite_loop.py](../evamples/infinite_loop.py)**  
-**[Exercise007 - parrot_loop.py](../exercises/parrot_loop.py)**  
+**[Example06 - infinite_loop.py](../evamples/infinite_loop.py)**  
+**[Exercise07 - parrot_loop.py](../exercises/parrot_loop.py)**  
 
 ---  
-**[previous lesson](.Lesson6.md)**  
+**[previous lesson](./Lesson06.md)**  
 **[next lesson](./Lesson08.md)**

@@ -32,7 +32,7 @@ so now when we refer to `username` we are refrencing the string of text the user
 entered.
 
 ---
-**[Exercise003 - repeat_me.py](../repeat_me.py)**  
+**[Exercise03 - repeat_me.py](../repeat_me.py)**  
 
 ---
 **[previous lesson](./Lesson02.md)**  

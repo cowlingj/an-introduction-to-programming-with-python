@@ -100,10 +100,10 @@ There is no value of integer for the string "fred", so we get an error.
 > programmer.
 
 ---
-**[Example001 - add_two_numbers_wrong.py](../examples/add_two_numbers_wrong.py)**  
-**[Example002 - add_two_numbers.py](../examples/add_two_numbers.py)**  
-**[Example003 - parrot.py](../examples/parrot.py)**  
-**[Exercise003 - hello_someone.py](../exercises/hello_someone.py)**  
+**[Example01 - add_two_numbers_wrong.py](../examples/add_two_numbers_wrong.py)**  
+**[Example02 - add_two_numbers.py](../examples/add_two_numbers.py)**  
+**[Example03 - parrot.py](../examples/parrot.py)**  
+**[Exercise03 - hello_someone.py](../exercises/hello_someone.py)**  
 
 ---
 **[previous lesson](./Lesson03.md)**  

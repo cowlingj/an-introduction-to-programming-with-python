@@ -144,6 +144,8 @@ print(dwarfs)
 > look at some more list functions.
 
 ---
+**[Exercise08 - greet_many.py](../exercises/greet_many.py)**  
+
 ---
 **[previous lesson](./Lesson07.md)**  
 **[next lesson](./Lesson09.md)**

@@ -111,6 +111,9 @@ the third is the number to increment by - just like with list slicing, so
 `range(2, 6, 2)` is `[2, 4]`.
 
 ---
+**[Example06 - multiply_number_list.py](../examples/multiply_number_list.py)**  
+**[Exercise 09 - factorial.py](../exercises/factorial.py)**  
+
 ---
 **[previous lesson](./Lesson08.md)**  
 **[next lesson](./Lesson10.md)**

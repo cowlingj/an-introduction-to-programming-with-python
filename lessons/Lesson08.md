@@ -145,5 +145,5 @@ print(dwarfs)
 
 ---
 ---
-**[previous lesson](./Lesson07.md)**
-**[previous lesson](./Lesson09.md)**
+**[previous lesson](./Lesson07.md)**  
+**[next lesson](./Lesson09.md)**

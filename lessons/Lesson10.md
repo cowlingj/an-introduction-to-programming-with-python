@@ -149,5 +149,5 @@ file_to_close.close()
 **[Exercise NNN](../exercises/absent_children.py)**  
 
 ---
-**[previous lesson](./Lesson09.md)**
+**[previous lesson](./Lesson09.md)**  
 **[next lesson](./Lesson11.md)**

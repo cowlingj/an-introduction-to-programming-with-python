@@ -18,4 +18,4 @@ dog_name = user_dog_name
 > reassign things without realising
 
 ---
-**[Lesson02 - Variables and data types](../lessons/Lesson2.md)**
+**[Lesson02 - Variables and data types](../lessons/Lesson02.md)**

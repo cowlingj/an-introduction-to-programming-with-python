@@ -120,6 +120,6 @@ while running:
     ids, names, ages, notes = delete(id, name, age, note, ids, names, ages, notes)
   elif operation == "exit" or operation == "quit":
     print("goodbye")
-    sys.exit(0)
+    exit(0)
   else:
     print("operation not recognised")

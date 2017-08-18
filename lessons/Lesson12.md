@@ -54,7 +54,7 @@ from Sys import *
 We can use functions and variables belonging to the module
 by using the same dot style syntax as we did for working with
 arrays, so: `sys.builtin_module_names` or
-`sys.exit(0)`. If we imported specific
+`cmath.sqrt(-1)`. If we imported specific
 things directly from the function, then we can access them
 directly.
 
@@ -100,8 +100,8 @@ Example - eulers_formula.py
 Example - stopwatch.py
 Exercise - guess_my_number.py
 ---
-**[Example NNN](../examples/eulers_formula.py)**  
-**[Exercise NNN](../exercises/stopwatch.py)**  
+**[Example09 - eulers_formula.py](../examples/eulers_formula.py)**  
+**[Exercise12 - stopwatch.py](../exercises/stopwatch.py)**  
 
 ---
 **[previous lesson](./Lesson11.md)**  

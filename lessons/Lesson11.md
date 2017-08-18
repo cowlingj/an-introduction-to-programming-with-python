@@ -96,8 +96,8 @@ return statement are unlikely to be executed.
 value
 
 ---
-**[Example NNN](../examples/adder.py)**  
-**[Exercise NNN](../exercises/calculator.py)**  
+**[Example08 - adder.py](../examples/adder.py)**  
+**[Exercise11 - calculator.py](../exercises/calculator.py)**  
 
 ---
 **[previous lesson](./Lesson10.md)**  

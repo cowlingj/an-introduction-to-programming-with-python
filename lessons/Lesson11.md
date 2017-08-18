@@ -93,7 +93,21 @@ return statement are unlikely to be executed.
 
 > We can call functions in assignments to assign a variable the result, or even
 > call functions as arguments to other functions, passing across the return
-value
+> value
+
+## Global
+
+If we don't name a variable in a function then we cannot access it at all, this
+behaviour is unlike many other languages. But inside a function referencing a
+variable from the outside of that function is a little different.
+We need to declare it as global first.
+```python3
+predefined_string = "this string was defined outside the function"
+
+def print_predefined_string:
+  global predefined_string
+  print(predefined_string)
+```
 
 ---
 **[Example08 - adder.py](../examples/adder.py)**  

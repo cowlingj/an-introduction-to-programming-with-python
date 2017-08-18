@@ -27,5 +27,5 @@ while want_more_names:
     want_more_names = False
 
 # do the actual greeting, we can print a list of strings directly,
-# just like a single string
-print("greetings to" + people_to_greet)
+# like we would print any other non string type with str(LIST_NAME)
+print("greetings to " + str(people_to_greet))

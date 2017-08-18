@@ -15,4 +15,4 @@ Greeter.py - Will build a list of names and then greet them all at once
   # depending on if the user wants to add more we may change our variable
 
 # do the actual greeting, we can print a list of strings directly,
-# just like a single string
+# like we would print any other non string type with str(LIST_NAME)

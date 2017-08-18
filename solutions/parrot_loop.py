@@ -10,6 +10,6 @@ user_input = input("say something > ")
 
 # if the user doesn't quit, loop around printing the given input
 # and prompting for more input
-while user_input != "exit" or user_input != "quit":
+while user_input != "exit" and user_input != "quit":
   print("*squawk* " + user_input + " *squawk*")
   user_input = input("say something > ")

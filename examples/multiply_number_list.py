@@ -9,22 +9,24 @@ list_to_multiply = []
 continue_adding_numbers = True
 
 # loop adding numbers to the list
-while continue_adding numbers:
+while continue_adding_numbers:
   # prompt the user to add a number to a list
   number_to_add = float(input("add a number to the list to be multiplied: "))
+
+  list_to_multiply.append(number_to_add)
 
   # prompt the user whether to continue or not
   prompt = input("add more numbers y/n? ")
 
    # depending on what the user wants, we may change the variable
    # controlling the loop
-   if prompt == "y":
-     print("continuing...")
-   elif prompt == "n":
-     continue_adding_numbers = False
-   else:
-     print("not recognised, quitting")
-     want_more_names = False
+  if prompt == "y":
+    print("continuing...")
+  elif prompt == "n":
+    continue_adding_numbers = False
+  else:
+    print("not recognised, quitting")
+    want_more_names = False
 
 # prompt the user for the number to multiply the list items with
 number_to_multiply = float(input("enter a number to multiply the list with: "))

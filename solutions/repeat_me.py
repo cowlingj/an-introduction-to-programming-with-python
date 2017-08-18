@@ -5,7 +5,7 @@ Repeat what the user inputs
 """
 
 # get the user input
-var user_input = input("Say something > ")
+user_input = input("Say something > ")
 
 # let the user know we are going to repeat there input
 print("You said:")

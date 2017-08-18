@@ -7,24 +7,33 @@ the calculator should prompt separately for each number and function
 
 # function to add a number to the base
 def add(number_to_add):
+  global base_number
   base_number += number_to_add
+  print("= " + str(base_number))
 
 # function to minus a number to the base
 def minus(number_to_take):
+  global base_number
   base_number -= number_to_take
+  print("= " + str(base_number))
 
 # function to times a number to the base
 def times(number_to_times):
+  global base_number
   base_number *= number_to_times
+  print("= " + str(base_number))
 
 # function to divide the base by a number
 def divide(number_to_divide):
+  global base_number
   base_number /= number_to_divide
+  print("= " + str(base_number))
 
 # function to list all the options
 def list():
   print(
-  """add
+  """
+  add
   times
   minus
   divide
@@ -45,7 +54,8 @@ while True:
 
   # ask for a second number to apply the operation with
   # if the operation is list or quit we only need them to continue with enter
-  second_number = int(input("choose number to apply or return for list or enter > "))
+  second_number = int(input("choose number to apply or any \
+number for list or quit > "))
 
   # check for each operation, call the function if the operation matches
   if op == "add":
@@ -54,7 +64,7 @@ while True:
     times(second_number)
   elif op == "divide":
     divide(second_number)
-  elif op == "minus"
+  elif op == "minus":
     minus(second_number)
   elif op == "list":
     list()
@@ -62,4 +72,4 @@ while True:
     exit(0)
   # include a catch all if the user supplies an invalid operation
   else:
-  raise Error("invalid opperation")
+    exit(-1)

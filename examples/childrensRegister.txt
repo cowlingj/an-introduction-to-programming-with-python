@@ -1,0 +1,242 @@
+--START--23/06--START--23/07Amy Andrews
+yBrad Bennet
+yCharlie Cooke
+nDylan Denton
+yElizabeth Edwards
+nFred Flint
+yGeorgia Grey
+nHarry Howard
+yImogen Island
+yJohn Johnson
+yKelly Kenedy
+yLiam Lane
+nMilly Myers
+nNeil Noel
+nOliva Oscar
+yPercy Penn
+nQuinn Quentin
+yRobert Richardson
+nSarah Stevenson
+yThomas Turner
+nUma Urnston
+yVictor Vickers
+nWendy Winters
+yXavier Xanders
+yYasmin Yardley
+yZachory Zain
+n--START--
+10/04
+Amy Andrews
+
+y
+Brad Bennet
+
+n
+Charlie Cooke
+
+y
+Dylan Denton
+
+n
+Elizabeth Edwards
+
+y
+Fred Flint
+
+n
+Georgia Grey
+
+y
+Harry Howard
+
+n
+Imogen Island
+
+n
+John Johnson
+
+n
+Kelly Kenedy
+
+n
+Liam Lane
+
+n
+Milly Myers
+
+n
+Neil Noel
+
+y
+Oliva Oscar
+
+y
+Percy Penn
+
+y
+Quinn Quentin
+
+y
+Robert Richardson
+
+y
+Sarah Stevenson
+
+n
+Thomas Turner
+
+n
+Uma Urnston
+
+n
+Victor Vickers
+
+n
+Wendy Winters
+
+
+Xavier Xanders
+
+y
+Yasmin Yardley
+
+y
+Zachory Zain
+
+y
+--START--
+01/12
+Amy Andrews
+
+y
+Brad Bennet
+
+y
+Charlie Cooke
+
+y
+Dylan Denton
+
+y
+Elizabeth Edwards
+
+y
+Fred Flint
+
+y
+Georgia Grey
+
+y
+Harry Howard
+
+y
+Imogen Island
+
+y
+John Johnson
+
+y
+Kelly Kenedy
+
+y
+Liam Lane
+
+y
+Milly Myers
+
+y
+Neil Noel
+
+y
+Oliva Oscar
+
+y
+Percy Penn
+
+y
+Quinn Quentin
+
+y
+Robert Richardson
+
+y
+Sarah Stevenson
+
+y
+Thomas Turner
+
+y
+Uma Urnston
+
+y
+Victor Vickers
+
+y
+Wendy Winters
+
+y
+Xavier Xanders
+
+y
+Yasmin Yardley
+
+y
+Zachory Zain
+
+y
+--END--
+--START--
+1/05
+Amy Andrews
+y
+Brad Bennet
+n
+Charlie Cooke
+n
+Dylan Denton
+n
+Elizabeth Edwards
+n
+Fred Flint
+n
+Georgia Grey
+n
+Harry Howard
+n
+Imogen Island
+n
+John Johnson
+n
+Kelly Kenedy
+n
+Liam Lane
+n
+Milly Myers
+n
+Neil Noel
+n
+Oliva Oscar
+n
+Percy Penn
+n
+Quinn Quentin
+n
+Robert Richardson
+n
+Sarah Stevenson
+n
+Thomas Turner
+n
+Uma Urnston
+n
+Victor Vickers
+n
+Wendy Winters
+n
+Xavier Xanders
+n
+Yasmin Yardley
+n
+Zachory Zain
+n
+--END--

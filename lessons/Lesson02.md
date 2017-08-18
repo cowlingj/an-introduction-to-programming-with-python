@@ -23,7 +23,10 @@ So what things exactly can we store a refrence to?
   A string is a list of letters or characters such as "hello world" (what we
   simply refered to as text in the previous lesson), we enclose strings in
   quotations to make it clear to python that we are talking about the string
-  hello world rather than something else with the same name.
+  hello world rather than something else with the same name. Note that the
+  backslash "\\" symbol has special meaning and can be used to add special
+  characters such as tabs and newlines, if we want a literal "\\" then we
+  should use two backslashes.
 
   > Strings in quotation marks are often refered to as string literals (we
   > literally mean "hello world").

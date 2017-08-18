@@ -9,24 +9,25 @@ accumulator = int(input("choose a starting number: "))
 
 # accumulate function will add a given number to the accumulator
 def accumulate(number_to_add):
+  global accumulator
   accumulator += number_to_add
 
 # a function that will prompt the user whether or not to continue
 # if an invalid input is given the program will exit
 def promptContinue():
-  user_input = input("continue y/n")
+  user_input = input("continue y/n: ")
   if user_input == "y":
-  return True
-elif user_input== "n":
-  return False
-else:
-  print("Error: Invalid Input")
-  exit(1)
+    return True
+  elif user_input== "n":
+    return False
+  else:
+    print("Error: Invalid Input")
+    exit(1)
 
 # a function that will loop while the user wants to continue
 while want_to_continue:
   # prompt the user for the next number
-  next_number = int(input("enter a new number to add to what we have so far"))
+  next_number = int(input("enter a new number to add to what we have so far: "))
   # accumulate the next number
   accumulate(next_number)
   # find out if the usewr wants to contine by prompting for continue

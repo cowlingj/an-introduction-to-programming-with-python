@@ -34,6 +34,6 @@ DIFFERENCE = FIRST_NUMBER - SECOND_NUMBER
 # to know which number to add to we just need to test which is smaller
 # if they are equal then we can add to either number
 if FIRST_NUMBER < SECOND_NUMBER:
-  print("Middle: " + FIRST_NUMBER + DIFFERENCE)
+  print("Middle: " + str(FIRST_NUMBER + DIFFERENCE))
 else:
-  print("Middle: " + SECOND_NUMBER + DIFFERENCE)
+  print("Middle: " + str(SECOND_NUMBER + DIFFERENCE))

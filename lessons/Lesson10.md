@@ -86,6 +86,10 @@ write a list of lines, see bellow for an example.
 file_for_writting = open("myFile.txt", "w")
 file_for_writting.write("Once upon a time")
 ```
+> The **write** function doesn't add a newline, to add a new line we need to add
+> a special sequence to the string, either "\\n" for linux (and REPL.it) or
+> "\\r\\n" for windows.
+
 The example writes the text to the file, if the file is in write mode (like in
 the example) then writting begins from the start, overwritting any content
 already there.

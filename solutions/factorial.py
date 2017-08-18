@@ -20,4 +20,4 @@ for index in range(1, base_number + 1):
   factorial_so_far = factorial_so_far * index
 
 # print the factorial
-print("factorial of " + str(base_number) + " is " + factorial_so_far)
+print("factorial of " + str(base_number) + " is " + str(factorial_so_far))

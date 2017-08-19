@@ -41,7 +41,7 @@ and variables from the module, without importing the module
 itself, allowing us to access everything from the module
 directly.
 ```python3
-from Sys import *
+from sys import *
 ```
 > If a variable in the module happens to have the same name as
 > a variable you have made there may be unexpected consequences
@@ -78,7 +78,7 @@ functionality from scratch.
 
 We can make things much easier for us using modules, however
 to know how to use the modules we import, we need to look at the module's
-documentation. Modules ofthen have documentation on the internet, common
+documentation. Modules often have documentation on the internet, common
 places to find it are GitHub, PIP and the official python
 documentation (we can also try to look for tutorials or videos for popular
 modules). If the module is a standard one such as **time** or **sys**
@@ -89,7 +89,7 @@ the source (or at least a link to the documentation).
 
 ## PIP
 
-PIP is a package management system that is recomended by python, we use PIP to
+PIP is a package management system that is recommended by python, we use PIP to
 install modules or groups of modules which come in packages, if you have
 python installed on your machine then using PIP is a good idea.
 REPL can install 3rd party modules with the _libraries_ button (cube looking

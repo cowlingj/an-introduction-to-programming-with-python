@@ -40,7 +40,7 @@ then pass in the variables when we want to use the function.
 magic_number = 6
 
 def area_of_a_square(side_length):
-  area = sidelength * side_length
+  area = side_length * side_length
   print("A square of length " + side_length + " has an area of " + area)
 
 area_of_a_square(2)

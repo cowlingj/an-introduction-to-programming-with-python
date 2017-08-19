@@ -7,7 +7,7 @@ data, we can do this using operations.
 
 ## Mathematics
 
-We can peerform many operations with integers and floats lets try addition:
+We can perform many operations with integers and floats lets try addition:
 ```python3
 my_number = 3 + 2
 ```
@@ -18,8 +18,8 @@ just as we can add we can **subtract** with `3 - 2`,
 **multiply** with `3 * 2`,
 and **divide** with `3 / 2`.
 
-There are more mathematical opperations such as **floor**, **modulus**, and
-**exponential**, these are less comonly used but can still be very helpful.
+There are more mathematical operations such as **floor**, **modulus**, and
+**exponential**, these are less commonly used but can still be very helpful.
 
 When doing operations the **operands** can be variables, like so:
 ```python3
@@ -30,22 +30,23 @@ third_number = first_number + second_number
 ```
 > An **operand** is the data the operation acts upon, in the above example
 > `first_number` and `second_number` are operands to the addition (+)
-> opperation.
+> operation.
 
 ## Concatenation
 
-A useful opperation that we can do with strings is called **concatenation**,
+A useful operation that we can do with strings is called **concatenation**,
 which is where two strings are combined into one "hello " concatenated with
 "programmer" makes the string "hello programmer".
 
 Since strings can't be added together like numbers can, we can instead use the
 "+" symbol for concatenation.
 ```python3
-first_half = "thi"
-second_half = ""
+first_half = "this "
+second_half = "is concatenated"
+full_string = first_half + second_half
 ```
 > A common mistake is to forget that when concatenating two strings which are
-> whole words we need a space to seperate them in the operation.
+> whole words we need a space to separate them in the operation.
 > ```python3
 > wrong = "this is" + "wrong"
 > print(wrong)

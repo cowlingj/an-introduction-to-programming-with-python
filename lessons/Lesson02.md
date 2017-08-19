@@ -2,8 +2,8 @@
 
 ## Variables
 
-A variable is a way to store a refrence to a particular value.
-If we say `my_favourite_number = 6` we have created a variable, so everytime we
+A variable is a way to store a reference to a particular value.
+If we say `my_favourite_number = 6` we have created a variable, so every time we
 mention `my_favourite_number` we are actually talking about the number `6`.
 
 ## Creating variables in Python
@@ -17,18 +17,18 @@ This is an **assignment statement**, It's as simple as that!
 
 ## Data types
 
-So what things exactly can we store a refrence to?
+So what things exactly can we store a reference to?
 
 * **Strings**
   A string is a list of letters or characters such as "hello world" (what we
-  simply refered to as text in the previous lesson), we enclose strings in
+  simply referred to as text in the previous lesson), we enclose strings in
   quotations to make it clear to python that we are talking about the string
   hello world rather than something else with the same name. Note that the
   backslash "\\" symbol has special meaning and can be used to add special
   characters such as tabs and newlines, if we want a literal "\\" then we
   should use two backslashes.
 
-  > Strings in quotation marks are often refered to as string literals (we
+  > Strings in quotation marks are often referred to as string literals (we
   > literally mean "hello world").
 
 * **integers**
@@ -40,7 +40,7 @@ So what things exactly can we store a refrence to?
   always be considered the same thing (python tends to hide this problem).
 
 * **and more...**
-  Refrences can be made to things called booleans, functions, and objects, but
+  References can be made to things called booleans, functions, and objects, but
   lets look at those another time.
 
 ## Variable names

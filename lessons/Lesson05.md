@@ -154,14 +154,14 @@ if hungry == True:
 
 print(food)
 ```
-In the line which reads `if hungry == True:` an extra comparason has been made.
+In the line which reads `if hungry == True:` an extra comparison has been made.
 the boolean hungry is either `True` or `False` so there is no need to find out
 whether `True == True` or `False == True` because this has the exact same effect
 as just using the boolean alone.
 Even though they reach the same answer it adds an extra step, and more
 experienced programmers hate it (I may be one of them).
 
-> It may seem a poor reson not to write code a certain way because programmers
+> It may seem a poor reason not to write code a certain way because programmers
 > don't like it, but consider programs written in industry are read many, many
 > times, so it's important that it is easy to read.
 

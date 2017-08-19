@@ -3,7 +3,7 @@
 ## mathematical Operators on Lists
 
 Python has also defined operations that can be done on lists, lists can be added
-together with the + opperator.
+together with the + operator.
 ```python
 class_9A = ["adam", "bethany", "connor", "danielle"]
 class_9B = ["amy", "brandon", "charlotte", "dylan"]
@@ -45,11 +45,11 @@ We use list slicing in the example above with the colon ":" symbol, the starting
 index is the number before the colon and the ending index is after **note that
 the sub-list does not include the item at the ending index**
 
-> If we dont write anything before the colon, this is the same as specifing the
-> first item. If we don't write anything after the colon, it is considered as
-> the end of the list.
+> If we don't write anything before the colon, this is the same as specifying
+> the first item. If we don't write anything after the colon, it is considered
+> as the end of the list.
 
-### Specifing the Increment
+### Specifying the Increment
 
 We can also choose to take every other item, or every third item, and so on by
 adding a little more to our slice like so:
@@ -66,8 +66,8 @@ This example is a little more complicated and shows how we can choose our own
 increment instead of just incrementing by 1, and and demonstrates slicing a list
 backwards.
 
-> Consider having seperate lists of things that are closely related to avoid
-> making mistakes with list slicing, and to make code simpiler to think about
+> Consider having separate lists of things that are closely related to avoid
+> making mistakes with list slicing, and to make code simpler to think about
 
 ## Strings as Lists
 
@@ -77,7 +77,7 @@ Looking back at (lesson 2)[#], remember the definition we gave to a string:
 
 Since a string is a list of characters, it should be no surprise that all of the
 things we can do with lists, slicing, operations, functions, we can do on
-strings too, feel free to experement with some of the concepts covered in the
+strings too, feel free to experiment with some of the concepts covered in the
 list sections with strings too.
 
 ## for Loop
@@ -90,12 +90,12 @@ pet_store = ["spot", "rex", "luca", "oscar", "bob"]
 for pet in pet_store:
   print(pet + " for sale")
 ```
-The **for** loop creates a temporary variable to store a refrence to an item in
-a list, in the example we called this variable `pet` to refrence each item in
+The **for** loop creates a temporary variable to store a reference to an item in
+a list, in the example we called this variable `pet` to reference each item in
 `pet_store`, the **for** loop first uses `pet` to represent the first item, then
-after the body executes once, it starts again with `pet` now refering to the
+after the body executes once, it starts again with `pet` now referring to the
 second item in `pet_store`. the loop ends after the last item has been
-refrenced.
+referenced.
 
 ## range
 

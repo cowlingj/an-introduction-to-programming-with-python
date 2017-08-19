@@ -2,7 +2,7 @@
 
 ## Wrapping things up
 
-So This course is comming to an end, lets look at what we have learned.
+So This course is coming to an end, lets look at what we have learned.
 
 So we started with hello world, then looked at variables and data types, as
 well as user input.
@@ -14,7 +14,7 @@ We finished up with functions and modules.
 
 Okay so that's what we've done, where to next?
 First of all, if you haven't looked at much of the examples or exercises, give
-them a try; if you have some of the following things may be of intrest.
+them a try; if you have some of the following things may be of interest.
 
 **Want to learn more advanced things?**  
 Take a look at
@@ -22,7 +22,7 @@ Take a look at
 a very well used programming paradigm that even for a course as simple as this,
 we've been exposed to in order to do some of the things we have.
 
-**Want to write graphical pragrams you can show off?**  
+**Want to write graphical programs you can show off?**  
 Try the [curses module](https://docs.python.org/3/howto/curses.html)
 or [PyQt](https://wiki.python.org/moin/PyQt),
 both of these modules are used to
@@ -32,10 +32,10 @@ for terminal style GUIs and PyQt being for window style GUIs.
 > You may have trouble using REPL.it with these modules.
 
 **Like python? Go ahead and install it?**  
-Python can be installed on all major opperating systems, comming
+Python can be installed on all major operating systems, coming
 either as just the simple interpreter like we've been working with,
 or with more tools to make programming quicker and easier (get it from the
-[offical python website](https://www.python.org/downloads/)).
+[official python website](https://www.python.org/downloads/)).
 
 **Want a challenge?**  
 There is one more exercise, and one more example, they use
@@ -73,7 +73,7 @@ you could even learn some web development, starting with html and css
 
 **Perhaps this isn't for you**  
 In that case then I hope you enjoyed your little
-peak into the world that is programming, and hopefully youv'e gained something
+peak into the world that is programming, and hopefully you've gained something
 useful from this course.
 
 ## Feedback
@@ -84,10 +84,10 @@ would be much appreciated.
 If you do choose to continue this journey, then make sure to focus on practice,
 practice is the key to programming, there's no shame in needing to look things
 up, even professionals forget things and need to refer to documentation, and
-even professionals keep learning; that's a truth you may come accross quite
+even professionals keep learning; that's a truth you may come across quite
 often - in Programming you **never** stop learning.
 
-So keep on learning, and best of luck; from these humble beggings you could go
+So keep on learning, and best of luck; from these humble beginnings you could go
 on to create something huge.
 
 ---

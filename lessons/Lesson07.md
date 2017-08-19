@@ -76,10 +76,11 @@ current value of `counter` then we increment it by 1, and then we print "done"
 when the loop is finished.
 
 > If we forget to increment the `counter` variable, if the user gives a number
-> less than 5, then it will always be less than 5, so everytime we come back to
+> less than 5, then it will always be less than 5, so every time we come back to
 > the condition in the loop it will be true, and the loop will repeat forever.
-> This is an infite loop, and normally we _really_ want to avoid those.
-> To see this in action checkout infinte_loop.py, but first make sure you
+> This is an infinite loop, and normally we _really_ want to avoid those.
+> To see this in action checkout
+> [infinite_loop.py](../examples/infinite_loop.py), but first make sure you
 > know how to force the program to stop!
 
 ---

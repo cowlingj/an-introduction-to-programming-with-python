@@ -31,7 +31,7 @@ i_should_be_a_programmer = ! i_am_rich and i_can_code
 ```
 In the above example we use **and** with the following operand `! i_am_rich`
 as well as `i_can_code` to give us a boolean `i_should_be_a_programmer` - no
-suprises that `i_should_be_a_programmer == True`!
+surprises that `i_should_be_a_programmer == True`!
 
 ### or
 Either operand of **or** must be True for an **or** to be True, **or**
@@ -44,11 +44,11 @@ there_is_coffee = True
 if there_are_puppies or (there_is_code and there_is_coffee):
   print("i am happy")
 ```
-> did you notice in the example we needed to use brackets thats because we want
+> did you notice in the example we needed to use brackets that's because we want
 > the **and** part to be done (or evaluated) first. **and** and **or** have the
-> same **operator presidense** so there is no prefrence to which one gets
+> same **operator precedence** so there is no preference to which one gets
 > evaluated first, when this is the case, statements are evaluate left to right.
-> brackets "()" have a much higher operator presidense so a statement in
+> brackets "()" have a much higher operator precedence so a statement in
 > brackets is always executed first.
 
 ## Multiple Conditions
@@ -96,7 +96,7 @@ else
 > statement is a catch all at the end.
 
 In this example we look at the weather string and we act upon it in different
-ways depending on its value, doing diffent things if it happens to be "sunny"
+ways depending on its value, doing different things if it happens to be "sunny"
 or "rain".
 
 > Be aware that **else** and **elif** can't exist without an **if** statement
@@ -106,7 +106,7 @@ or "rain".
 ## Nesting Conditions
 
 The body of a conditional statement can include another conditional statement,
-doing this is a teqnique called nesting.
+doing this is a technique called nesting.
 
 > As a general rule of thumb, the less things are nested the better, because
 > many nested statements can become confusing to think about when reading code,

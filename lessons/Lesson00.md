@@ -30,14 +30,14 @@ of the script to the python program installed on the machine.
 
 For this course we won't need to have python installed on our computers, but for
 personal use it can be handy to have python installed, the installation process
-varys from computer to computer, but guidance can be found on pythons official
-website [here](https://www.python.org/about/gettingstarted/)
+will vary from computer to computer, but guidance can be found on pythons
+official website [here](https://www.python.org/about/gettingstarted/)
 
 ## REPL
 
 This course will use a website called
 [REPL.it](https://repl.it/languages/python3)
-(REPL stands for read, eveluate, print, loop), REPL allows us to work online,
+(REPL stands for read, evaluate, print, loop), REPL allows us to work online,
 without worrying about installation. Optionally an account can be made with
 REPL.it, which allows for more features such as saving programs, but for our
 course we don't need to.

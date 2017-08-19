@@ -18,7 +18,7 @@ Let's see an example of the print function.
 input("hello who are you? ")
 ```
 
-> The space at the end of the prompt string seperates it from the user input
+> The space at the end of the prompt string separates it from the user input
 > try using input without the trailing space and notice the difference.
 
 But there isn't much point in getting the user to input something without
@@ -28,8 +28,8 @@ assigning it a variable, if we want to use that input we need to instead write:
 username = input("hello who are you?")
 ```
 
-so now when we refer to `username` we are refrencing the string of text the user
-entered.
+so now when we refer to `username` we are referencing the string of text the
+user entered.
 
 ---
 **[Exercise03 - repeat_me.py](../exercises/repeat_me.py)**  

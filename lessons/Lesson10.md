@@ -83,29 +83,29 @@ Just as we have a number of options available to us for reading files, we have a
 choice in how to write to them too; we can either write a big block of text, or
 write a list of lines, see bellow for an example.
 ```python3
-file_for_writting = open("myFile.txt", "w")
-file_for_writting.write("Once upon a time")
+file_for_writing = open("myFile.txt", "w")
+file_for_writing.write("Once upon a time")
 ```
 > The **write** function doesn't add a newline, to add a new line we need to add
-> a special sequence to the string, either "\\n" for linux (and REPL.it) or
+> a special sequence to the string, either "\\n" for Linux (and REPL.it) or
 > "\\r\\n" for windows.
 
 The example writes the text to the file, if the file is in write mode (like in
-the example) then writting begins from the start, overwritting any content
+the example) then writing begins from the start, overwriting any content
 already there.
 If we opened the file in append mode, then the text we wrote would have appeared
 at the end of the file.
 ```python3
-file_for_writting = open("myFile.txt", "w")
+file_for_writing = open("myFile.txt", "w")
 story_text = ["Once upon a time.", "There lived a programmer.", "The end."]
-file_for_writting.writelines(lines_to_add)
+file_for_writing.writelines(lines_to_add)
 ```
-This example writes each item in the list as a seperate line.
+This example writes each item in the list as a separate line.
 
 ```python3
-file_for_writting = open("myFile.txt", "a")
+file_for_writing = open("myFile.txt", "a")
 final_line = "this is the real end (or is it only the beginning?)"
-file_for_writting.writeline(final_line)
+file_for_writing.writeline(final_line)
 ```
 
 ## seek and tell
@@ -141,7 +141,7 @@ Here we use tell to find out where the cursor position is.
 A file should always be closed when it is no longer needed, this allows other
 programs to access the file, and removes information that python gives to the
 computer, saying that the file is in use.
-This can sometimes be handled automatically, but this behavior shouldn't be
+This can sometimes be handled automatically, but this behaviour shouldn't be
 relied upon.
 We can close a file with the file's **close()** function
 ```python3

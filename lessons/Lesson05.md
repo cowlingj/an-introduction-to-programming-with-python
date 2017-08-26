@@ -76,7 +76,7 @@ The logical operators have the following symbols and descriptions:
 | not          | not    | this is the oposite to the single boolean value it gets      |
 
 > remember the **assignment opperator** is a single equals sign **"="** while
-> the logical operator **equals** is two equals signs **"="**
+> the logical operator **equals** is two equals signs **"=="**
 
 We can use these operators to get boolean results like in the following example:
 ```python3

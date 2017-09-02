@@ -22,6 +22,7 @@ to break it down into easy to manage chunks.
 * [**lessons**](lessons) - This folder contains the lessons in the course.
 * [**exercises**](exercises) - This folder contains exercises to be completed during the course.
 * [**solutions**](solutions) - This folder contains the solutions to the exercises within the exercise folder
+* [**extra credit**](extra_credit) - This  folder contains extra tips and lessons, that aren't included in the core course.
 
 ## How to Follow the Course
 
